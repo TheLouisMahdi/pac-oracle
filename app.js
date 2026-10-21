@@ -23,6 +23,7 @@ let modalOpener = null;
 let previewUrl = null;
 let previewBlob = null;
 let photoPools = {};
+let photoPositions = {};
 const photoHistory = {};
 let currentLanguage = 'fa';
 let currentLocale = null;
@@ -118,8 +119,10 @@ function updatePhoto(id, category) {
   const previous = image.getAttribute('src');
   image.onerror = () => {
     image.onerror = null;
+    image.style.objectPosition = '';
     image.src = category === 'hero' ? 'assets/hero-portrait.webp' : 'assets/result-portrait.webp';
   };
+  image.style.objectPosition = photoPositions[url]?.[category] || '';
   if (url !== previous) image.src = url;
 }
 function refreshArtwork(isResult) {
@@ -135,8 +138,14 @@ async function loadPhotoIndex() {
     if (!embedded && !response.ok) return;
     const entries = embedded ? JSON.parse(embedded.textContent) : await response.json();
     if (!Array.isArray(entries)) return;
-    const files = new Set(entries.map(x => x.src).filter(x => typeof x === 'string' && /^assets\/images\/(archive|textures)\/[a-z0-9_-]+\.(?:jpg|png|webp)$/.test(x)));
-    photoPools = Object.fromEntries(Object.entries(IMAGE_FALLBACKS).map(([role, fallbacks]) => [role, fallbacks.filter(src => !src.startsWith('assets/images/') || files.has(src))]));
+    const photos = entries.filter(entry => entry && typeof entry.src === 'string' && /^assets\/images\/(archive|textures)\/[a-z0-9_-]+\.(?:jpg|png|webp)$/.test(entry.src));
+    const files = new Set(photos.map(entry => entry.src));
+    photoPositions = Object.fromEntries(photos.map(entry => [entry.src, entry.position || {}]));
+    photoPools = Object.fromEntries(Object.entries(IMAGE_FALLBACKS).map(([role, fallbacks]) => {
+      const existing = fallbacks.filter(src => !src.startsWith('assets/images/') || files.has(src));
+      const additions = photos.filter(entry => Array.isArray(entry.roles) && entry.roles.includes(role)).map(entry => entry.src);
+      return [role, [...new Set([...existing, ...additions])]];
+    }));
   } catch { /* Existing bundled images remain the fallback. */ }
   refreshArtwork(false);
 }

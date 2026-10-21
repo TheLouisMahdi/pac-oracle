@@ -142,5 +142,240 @@
     "usage": "history,menus",
     "source": "https://commons.wikimedia.org/wiki/File:Vinyl_Record_Shows.png",
     "rights": "CC0"
+  },
+  {
+    "id": "A09",
+    "src": "assets/images/archive/a09.jpg",
+    "category": "archive",
+    "title": "پرترهٔ توپاک با باندانا",
+    "usage": "hero",
+    "roles": [
+      "hero"
+    ],
+    "position": {
+      "hero": "50% 30%",
+      "result": "50% 22%"
+    },
+    "source": "https://www.mikemillerphoto.com/work/67f45e26-9b6f-4358-92d8-01f3c4091410-xsyhr-4bsxl",
+    "author": "Mike Miller",
+    "rights": "Copyright Mike Miller",
+    "width": 1000,
+    "height": 1500
+  },
+  {
+    "id": "A10",
+    "src": "assets/images/archive/a10.jpg",
+    "category": "archive",
+    "title": "توپاک در برابر دیوار گرافیتی",
+    "usage": "hero,result",
+    "roles": [
+      "hero",
+      "result"
+    ],
+    "position": {
+      "hero": "50% 20%",
+      "result": "50% 0%"
+    },
+    "source": "https://www.mikemillerphoto.com/work/67f45e26-9b6f-4358-92d8-01f3c4091410-xsyhr-4bsxl",
+    "author": "Mike Miller",
+    "rights": "Copyright Mike Miller",
+    "width": 1000,
+    "height": 1356
+  },
+  {
+    "id": "A11",
+    "src": "assets/images/archive/a11.jpg",
+    "category": "archive",
+    "title": "توپاک کنار رینگ‌های خودرو",
+    "usage": "hero,result",
+    "roles": [
+      "hero",
+      "result"
+    ],
+    "position": {
+      "hero": "45% 30%",
+      "result": "50% 20%"
+    },
+    "source": "https://www.mikemillerphoto.com/work/67f45e26-9b6f-4358-92d8-01f3c4091410-xsyhr-4bsxl",
+    "author": "Mike Miller",
+    "rights": "Copyright Mike Miller",
+    "width": 1000,
+    "height": 908
+  },
+  {
+    "id": "A12",
+    "src": "assets/images/archive/a12.jpg",
+    "category": "archive",
+    "title": "پرترهٔ نیم‌رخ با باندانا",
+    "usage": "hero,result",
+    "roles": [
+      "hero",
+      "result"
+    ],
+    "position": {
+      "hero": "50% 25%",
+      "result": "50% 18%"
+    },
+    "source": "https://www.chimodu.com/collection",
+    "author": "Chi Modu",
+    "rights": "Copyright Chi Modu",
+    "width": 810,
+    "height": 1080
+  },
+  {
+    "id": "A13",
+    "src": "assets/images/archive/a13.jpg",
+    "category": "archive",
+    "title": "پرترهٔ نزدیک با پس‌زمینهٔ روشن",
+    "usage": "hero",
+    "roles": [
+      "hero"
+    ],
+    "position": {
+      "hero": "50% 32%",
+      "result": "50% 30%"
+    },
+    "source": "https://www.chimodu.com/collection",
+    "author": "Chi Modu",
+    "rights": "Copyright Chi Modu",
+    "width": 1200,
+    "height": 1480
+  },
+  {
+    "id": "A14",
+    "src": "assets/images/archive/a14.jpg",
+    "category": "archive",
+    "title": "پرترهٔ روبه‌روی توپاک",
+    "usage": "hero",
+    "roles": [
+      "hero"
+    ],
+    "position": {
+      "hero": "50% 30%",
+      "result": "50% 22%"
+    },
+    "source": "https://www.chimodu.com/collection",
+    "author": "Chi Modu",
+    "rights": "Copyright Chi Modu",
+    "width": 1200,
+    "height": 1489
+  },
+  {
+    "id": "A15",
+    "src": "assets/images/archive/a15.jpg",
+    "category": "archive",
+    "title": "پرترهٔ توپاک از زاویهٔ پایین",
+    "usage": "hero,result",
+    "roles": [
+      "hero",
+      "result"
+    ],
+    "position": {
+      "hero": "50% 30%",
+      "result": "50% 25%"
+    },
+    "source": "https://www.chimodu.com/collection",
+    "author": "Chi Modu",
+    "rights": "Copyright Chi Modu",
+    "width": 1200,
+    "height": 1491
+  },
+  {
+    "id": "A16",
+    "src": "assets/images/archive/a16.jpg",
+    "category": "archive",
+    "title": "توپاک با زیرپوش سفید از نیم‌رخ",
+    "usage": "hero,result",
+    "roles": [
+      "hero",
+      "result"
+    ],
+    "position": {
+      "hero": "50% 20%",
+      "result": "50% 12%"
+    },
+    "source": "https://www.chimodu.com/collection",
+    "author": "Chi Modu",
+    "rights": "Copyright Chi Modu",
+    "width": 871,
+    "height": 1080
+  },
+  {
+    "id": "A17",
+    "src": "assets/images/archive/a17.jpg",
+    "category": "archive",
+    "title": "توپاک با دست‌ها کنار سر",
+    "usage": "result",
+    "roles": [
+      "result"
+    ],
+    "position": {
+      "hero": "50% 65%",
+      "result": "50% 70%"
+    },
+    "source": "https://www.chimodu.com/collection",
+    "author": "Chi Modu",
+    "rights": "Copyright Chi Modu",
+    "width": 1200,
+    "height": 1477
+  },
+  {
+    "id": "A18",
+    "src": "assets/images/archive/a18.jpg",
+    "category": "archive",
+    "title": "توپاک با باندانا و پیراهن تیره",
+    "usage": "result",
+    "roles": [
+      "result"
+    ],
+    "position": {
+      "hero": "50% 58%",
+      "result": "50% 65%"
+    },
+    "source": "https://www.chimodu.com/collection",
+    "author": "Chi Modu",
+    "rights": "Copyright Chi Modu",
+    "width": 834,
+    "height": 1080
+  },
+  {
+    "id": "A19",
+    "src": "assets/images/archive/a19.jpg",
+    "category": "archive",
+    "title": "پرترهٔ توپاک با پیراهن جین",
+    "usage": "hero,result",
+    "roles": [
+      "hero",
+      "result"
+    ],
+    "position": {
+      "hero": "50% 24%",
+      "result": "50% 12%"
+    },
+    "source": "https://grimmgallery.com/press/332-no-one-photographed-the-90s-like-dana-lixenberg/",
+    "author": "Dana Lixenberg",
+    "rights": "Copyright Dana Lixenberg",
+    "width": 1200,
+    "height": 1517
+  },
+  {
+    "id": "A20",
+    "src": "assets/images/archive/a20.jpg",
+    "category": "archive",
+    "title": "پرترهٔ سیاه‌وسفید توپاک",
+    "usage": "hero,result",
+    "roles": [
+      "hero",
+      "result"
+    ],
+    "position": {
+      "hero": "60% 35%",
+      "result": "50% 25%"
+    },
+    "source": "https://www.newyorker.com/magazine/1997/07/07/the-takedown-of-tupac",
+    "author": "Eli Reed",
+    "rights": "Copyright Eli Reed",
+    "width": 1925,
+    "height": 1444
   }
 ]
