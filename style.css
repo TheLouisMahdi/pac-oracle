@@ -92,7 +92,6 @@ button:disabled{opacity:.55;cursor:wait}
 .fortune-text{font-size:clamp(19px,1.9vw,27px);font-weight:700;line-height:2.05;letter-spacing:-.3px;white-space:pre-wrap;margin:17px 0 0;overflow-wrap:anywhere}
 .song-history{border-top:1px solid #aaa194;padding-top:25px}
 .song-history>p:not(.research-caution){font-size:14px;line-height:2.2;color:#4b4540;margin:13px 0 12px;white-space:pre-wrap;overflow-wrap:anywhere}
-.research-caution{font-size:11px!important;line-height:1.9!important;padding:12px 14px;border-right:3px solid var(--red);background:#cec1b2;color:#4f413c;margin-top:15px!important}
 .sources-details{border-top:1px solid #b7ad9e;margin-top:24px;padding-top:17px;font-size:12px;color:#403a35}
 .sources-details summary{cursor:pointer;font-weight:700;max-width:max-content}
 .sources-details ul{padding-inline-start:22px;padding-block:4px 10px;margin:10px 0 0;list-style:square}
@@ -129,7 +128,6 @@ button:disabled{opacity:.55;cursor:wait}
 .about-copy h2{font-size:clamp(31px,3.2vw,48px);margin:15px 0 20px;line-height:1.5}
 .about-copy h3{font-size:17px;margin:30px 0 8px}
 .about-copy p{color:#49423b;font-size:14px;line-height:2.2}
-.about-copy .about-rights{border-top:1px solid #aaa19b;padding-top:15px;font-size:11px}
 .about-photo{margin:0;align-self:start;background:#222;position:relative}
 .about-photo img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;object-position:top;filter:grayscale(1) contrast(1.1)}
 .about-photo figcaption{position:absolute;bottom:0;inset-inline:0;padding:20px;background:linear-gradient(transparent,#111);color:white;font-size:11px}
@@ -184,7 +182,6 @@ button:disabled{opacity:.55;cursor:wait}
 }
 @media(prefers-reduced-motion:reduce){.result-view{animation:none}}
 
-.source-editorial-note{font:400 11px/2 var(--text-font);margin:12px 0 8px;color:#66594c;direction:rtl;text-align:right}
 #sharePreviewImage{display:block;height:auto;object-fit:initial}
 
 /* v1.2: editorial headlines, structured music discovery, varied archival artwork. */
@@ -209,5 +206,4 @@ body::before{background-image:var(--random-texture,url('assets/paper-texture.web
 .contact-links a:hover{color:var(--ivory);text-decoration:underline;text-underline-offset:4px}
 html[lang="en"] .hero-heading{white-space:normal;letter-spacing:-2px}
 html[lang="en"] .primary-cta{padding:0 0 0 22px}
-html[lang="en"] .source-editorial-note{direction:ltr;text-align:left}
 @media(max-width:740px){.contact-links{font-size:10px;gap:10px 18px}}
