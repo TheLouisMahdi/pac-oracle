@@ -24,20 +24,20 @@
   <script defer src="app.js"></script>
 </head>
 <body>
-  <a href="#main" class="skip-link">رفتن به محتوای اصلی</a>
+  <a href="#main" class="skip-link" data-i18n="skipLink">رفتن به محتوای اصلی</a>
   <div class="page-shell">
     <header class="site-header site-width">
-      <a class="brand" href="./" id="brandHome" aria-label="PAC ORACLE - صفحه اصلی" dir="ltr">
+      <a class="brand" href="./" id="brandHome" aria-label="PAC ORACLE - صفحه اصلی" data-i18n-aria-label="homeLabel" dir="ltr">
         <span class="brand-symbol">P<span class="brand-star">*</span></span>
         <span class="brand-wordmark">PAC<span class="brand-slash">/</span>ORACLE</span>
       </a>
       <div class="header-center" dir="ltr"><span class="signal-dot"></span> THE LIFE BEHIND THE LYRICS</div>
-      <nav class="header-actions" aria-label="ناوبری اصلی">
+      <nav class="header-actions" aria-label="ناوبری اصلی" data-i18n-aria-label="navigationLabel">
         <div class="language-wrap">
-          <button type="button" class="lang-button" id="languageButton" aria-expanded="false" aria-controls="languagePanel"><span>FA</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></button>
+          <button type="button" class="lang-button" id="languageButton" aria-expanded="false" aria-controls="languagePanel" aria-label="انتخاب زبان" data-i18n-aria-label="languageLabel"><span id="languageCode">FA</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></button>
           <div class="language-panel" id="languagePanel" hidden>
-            <strong>فارسی <span>فعال</span></strong>
-            <p data-i18n="languageComing">زبان‌های دیگر به‌زودی</p>
+            <button type="button" data-language="fa" lang="fa" dir="rtl" aria-pressed="true">فارسی <span dir="ltr">FA</span></button>
+            <button type="button" data-language="en" lang="en" dir="ltr" aria-pressed="false">English <span>EN</span></button>
           </div>
         </div>
         <button type="button" class="link-button" id="aboutButton" data-i18n="navAbout">درباره پروژه</button>
@@ -55,11 +55,11 @@
           </h1>
           <p class="hero-description" data-i18n="heroDescription">یه لحظه نیت کن. یک روایت تصادفی از دنیای موسیقی توپاک منتظرته. قرار نیست آینده رو پیش‌بینی کنه؛ شاید فقط از زاویه دیگه‌ای به امروزت نگاه کنی.</p>
           <button type="button" class="primary-cta" id="drawButton"><span data-i18n="drawButton">فال من رو بگیر</span><span class="cta-arrow" aria-hidden="true">↗</span></button>
-          <button type="button" class="saved-home-button" id="savedFortuneButton" hidden>✳ <span>مشاهده فال ذخیره‌شده</span></button>
+          <button type="button" class="saved-home-button" id="savedFortuneButton" hidden>✳ <span data-i18n="viewSaved">مشاهده فال ذخیره‌شده</span></button>
           <p class="micro-note"><span class="note-mark">✳</span><span data-i18n="heroPrivacy">بدون ثبت‌نام. بدون سؤال. فقط یک انتخاب تصادفی.</span></p>
         </div>
 
-        <div class="hero-art" aria-label="پرتره سیاه‌وسفید توپاک شکور" role="img">
+        <div class="hero-art" aria-label="پرتره سیاه‌وسفید توپاک شکور" data-i18n-aria-label="heroImageLabel" role="img">
           <img class="hero-photo" id="heroPortrait" src="assets/hero-portrait.webp" alt="" width="1200" height="1176" decoding="async">
           <span class="hero-image-caption" dir="ltr">TUPAC<br>AMARU<br>SHAKUR</span>
           <div class="hero-art-label" dir="ltr"><span class="label-square"></span> AN ARCHIVE OF VOICES <span class="hero-art-label-number">NO. 001</span></div>
@@ -68,10 +68,10 @@
         <div class="hero-footer" dir="ltr"><span>ORIGINAL STORIES / REIMAGINED MEANINGS</span><span>1971 <i></i> 1996</span><span>SCROLL TO DISCOVER ↓</span></div>
       </section>
 
-      <section class="bottom-editorial site-width" id="homeBottom" aria-label="درباره تجربه">
+      <section class="bottom-editorial site-width" id="homeBottom" aria-label="درباره تجربه" data-i18n-aria-label="experienceLabel">
         <div class="editorial-wordmark" dir="ltr">EVERY SONG<br><span>HAS A STORY.</span></div>
         <div class="editorial-stamp" aria-hidden="true"><span>PAC</span><span>ORACLE</span><span>✳</span></div>
-        <p>هر بار فقط یک آهنگ. یک برداشت کوتاه برای فکر کردن، و یک داستان واقعی از پشت موسیقی.</p>
+        <p data-i18n="editorialDescription">هر بار فقط یک آهنگ. یک برداشت کوتاه برای فکر کردن، و یک داستان واقعی از پشت موسیقی.</p>
         <span class="editorial-count" dir="ltr">ISSUE 001 / ∞</span>
       </section>
 
@@ -83,21 +83,21 @@
             <div class="sheet-song-heading"><span class="small-overline" data-i18n="resultKicker">یک آهنگ، یک روایت</span><h2 id="songTitle" dir="auto">PANTHER POWER</h2><p id="songDetails" dir="auto"></p></div>
             <div class="sheet-separator"><span class="small-star">✳</span><span id="sheetChapterCode">001 / WORDS THAT FIND YOU</span></div>
             <div class="sheet-body"><span class="section-eyebrow"><span>01</span><span data-i18n="fortuneLabel">فال تو</span></span><h3 class="fortune-headline" id="fortuneHeadline"></h3><p class="fortune-text" id="fortuneText"></p></div>
-            <div class="result-actions" aria-label="ابزارهای فال">
+            <div class="result-actions" aria-label="ابزارهای فال" data-i18n-aria-label="fortuneActionsLabel">
               <button type="button" class="share-button" id="shareButton"><span data-i18n="shareButton">دیدن و اشتراک تصویر فال</span><span aria-hidden="true">↗</span></button>
               <button type="button" class="minor-button save-button" id="saveButton" aria-pressed="false">♡ <span id="saveButtonText">ذخیره فال</span></button>
               <button type="button" class="minor-button" id="copyButton" data-i18n="copyButton">کپی متن</button>
               <button type="button" class="minor-button again-button" id="againButton"><span>↻</span><span data-i18n="againButton">یه فال دیگه</span></button>
             </div>
-            <section class="song-history"><span class="section-eyebrow"><span>02</span><span data-i18n="historyLabel">داستان پشت آهنگ</span></span><p id="historyText"></p><p id="researchCaution" class="research-caution" hidden></p><div class="music-links" id="musicLinks" hidden><a id="listenLink" class="listen-link" target="_blank" rel="noopener noreferrer" hidden>♫ <span>پیدا کردن آهنگ در YouTube Music</span> ↗</a><a id="spotifyLink" class="listen-link listen-secondary" target="_blank" rel="noopener noreferrer" hidden>♫ <span>پیدا کردن آهنگ در Spotify</span> ↗</a><p class="music-link-note">این پیوندها جست‌وجوی نام آهنگ هستند؛ نسخه دقیق را پیش از پخش انتخاب کنید.</p></div>
-              <details class="sources-details" id="sourcesDetails"><summary data-i18n="sourcesLabel">منابع و جزئیات</summary><p class="source-editorial-note">این فال برداشت ادبی مستقلی از آهنگ است؛ تأیید جزئیات تاریخی و بازبینی محتوا همچنان ادامه دارد.</p><ul id="sourcesList"></ul></details>
+            <section class="song-history"><span class="section-eyebrow"><span>02</span><span data-i18n="historyLabel">داستان پشت آهنگ</span></span><p id="historyText"></p><p id="researchCaution" class="research-caution" hidden></p><div class="music-links" id="musicLinks" hidden><a id="listenLink" class="listen-link" target="_blank" rel="noopener noreferrer" hidden>♫ <span data-i18n="youtubeSearch">پیدا کردن آهنگ در YouTube Music</span> ↗</a><a id="spotifyLink" class="listen-link listen-secondary" target="_blank" rel="noopener noreferrer" hidden>♫ <span data-i18n="spotifySearch">پیدا کردن آهنگ در Spotify</span> ↗</a><p class="music-link-note" data-i18n="musicLinkNote">این پیوندها جست‌وجوی نام آهنگ هستند؛ نسخه دقیق را پیش از پخش انتخاب کنید.</p></div>
+              <details class="sources-details" id="sourcesDetails"><summary data-i18n="sourcesLabel">منابع و جزئیات</summary><p class="source-editorial-note" data-i18n="sourceEditorialNote">این فال برداشت ادبی مستقلی از آهنگ است؛ تأیید جزئیات تاریخی و بازبینی محتوا همچنان ادامه دارد.</p><ul id="sourcesList"></ul></details>
             </section>
             <footer class="sheet-footer"><span dir="ltr">NOT A PROPHECY.<br>JUST A PERSPECTIVE.</span><span class="footer-flower">✳</span></footer>
           </article>
 
           <aside class="result-side">
-            <div class="side-photo-wrap"><img src="assets/result-portrait.webp" loading="lazy" alt="تصویر آرشیوی مرتبط با توپاک شکور" width="1200" height="675" id="resultPortrait"><span class="photo-marker" dir="ltr">ARCHIVE / 2PAC</span></div>
-            <div class="result-side-bottom"><span class="side-kicker" dir="ltr">THE ORACLE HAS SPOKEN</span><div class="side-motto" dir="ltr">WORDS<br>HIT<br><span>DIFFERENT.</span></div><p>گاهی یک آهنگ، از هزار جواب بیشتر حرف داره.</p></div>
+            <div class="side-photo-wrap"><img src="assets/result-portrait.webp" loading="lazy" alt="تصویر آرشیوی مرتبط با توپاک شکور" data-i18n-alt="resultImageAlt" width="1200" height="675" id="resultPortrait"><span class="photo-marker" dir="ltr">ARCHIVE / 2PAC</span></div>
+            <div class="result-side-bottom"><span class="side-kicker" dir="ltr">THE ORACLE HAS SPOKEN</span><div class="side-motto" dir="ltr">WORDS<br>HIT<br><span>DIFFERENT.</span></div><p data-i18n="sideDescription">گاهی یک آهنگ، از هزار جواب بیشتر حرف داره.</p></div>
 
           </aside>
         </div>
@@ -106,18 +106,19 @@
     </main>
 
     <footer class="site-footer site-width"><span dir="ltr">© PAC / ORACLE - INDEPENDENT TRIBUTE PROJECT.</span><p data-i18n="disclaimer">این برداشت ادبی مستقل از آثار توپاک است، نه پیش‌گویی و نه پروژه رسمی او.</p><button type="button" id="footerAboutButton">CREDITS ↗</button></footer>
+    <nav class="contact-links site-width" dir="ltr" aria-label="لینک‌های تماس" data-i18n-aria-label="contactLabel"><a href="https://t.me/thelouis_mahdi" target="_blank" rel="noopener noreferrer">Telegram · @thelouis_mahdi ↗</a><a href="https://github.com/TheLouisMahdi" target="_blank" rel="noopener noreferrer">GitHub · TheLouisMahdi ↗</a></nav>
   </div>
 
   <div class="modal-backdrop" id="aboutModal" hidden>
     <section class="about-modal" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
-      <div class="modal-top"><span dir="ltr">PAC / ORACLE <span class="red-slash">/</span> ABOUT</span><button type="button" class="close-modal" id="closeModal" aria-label="بستن پنجره">×</button></div>
-      <div class="modal-content"><div class="about-copy"><span class="small-overline">THE IDEA BEHIND THE ORACLE</span><h2 id="aboutTitle" data-i18n="aboutTitle">درباره PAC / ORACLE</h2><p data-i18n="aboutDescription">اینجا موسیقی یک نقطه شروع است؛ برای فکر کردن، نه پیش‌گویی. هر بار، یک روایت از آرشیو آثار توپاک به‌صورت تصادفی پیش روی تو قرار می‌گیرد.</p><h3 data-i18n="aboutArchive">درباره آرشیو</h3><p data-i18n="aboutArchiveBody">۵۰۱ مدخل در آرشیو ذخیره شده‌اند. در نسخه فعلی فقط مجموعه منتخب آثار منتشرشده و بازبینی اولیه‌شده برای فال عمومی فعال است. این آثار برداشت‌های ادبی مستقلی هستند و تأیید نهایی تمام جزئیات تاریخی همچنان ادامه دارد.</p><p class="about-rights" data-i18n="aboutRights">تصاویر موجود برای نمونه اولیه استفاده شده‌اند. برای انتشار عمومی، مجوز بازنشر عکس‌های دارای حق نشر را بررسی کنید.</p></div><figure class="about-photo"><img src="assets/archive-portrait.webp" loading="lazy" alt="تصویر آرشیوی توپاک در سال ۱۹۸۸" width="900" height="1909"><figcaption data-i18n="referenceCaption">توپاک، اواخر دهه ۱۹۸۰</figcaption></figure></div>
+      <div class="modal-top"><span dir="ltr">PAC / ORACLE <span class="red-slash">/</span> ABOUT</span><button type="button" class="close-modal" id="closeModal" aria-label="بستن پنجره" data-i18n-aria-label="closeDialog">×</button></div>
+      <div class="modal-content"><div class="about-copy"><span class="small-overline">THE IDEA BEHIND THE ORACLE</span><h2 id="aboutTitle" data-i18n="aboutTitle">درباره PAC / ORACLE</h2><p data-i18n="aboutDescription">اینجا موسیقی یک نقطه شروع است؛ برای فکر کردن، نه پیش‌گویی. هر بار، یک روایت از آرشیو آثار توپاک به‌صورت تصادفی پیش روی تو قرار می‌گیرد.</p><h3 data-i18n="aboutArchive">درباره آرشیو</h3><p data-i18n="aboutArchiveBody">۵۰۱ مدخل در آرشیو ذخیره شده‌اند. در نسخه فعلی فقط مجموعه منتخب آثار منتشرشده و بازبینی اولیه‌شده برای فال عمومی فعال است. این آثار برداشت‌های ادبی مستقلی هستند و تأیید نهایی تمام جزئیات تاریخی همچنان ادامه دارد.</p><p class="about-rights" data-i18n="aboutRights">تصاویر موجود برای نمونه اولیه استفاده شده‌اند. برای انتشار عمومی، مجوز بازنشر عکس‌های دارای حق نشر را بررسی کنید.</p></div><figure class="about-photo"><img src="assets/archive-portrait.webp" loading="lazy" alt="تصویر آرشیوی توپاک در سال ۱۹۸۸" data-i18n-alt="aboutImageAlt" width="900" height="1909"><figcaption data-i18n="referenceCaption">توپاک، اواخر دهه ۱۹۸۰</figcaption></figure></div>
     </section>
   </div>
   <div class="modal-backdrop preview-backdrop" id="shareModal" hidden>
     <section class="share-preview-modal" role="dialog" aria-modal="true" aria-labelledby="sharePreviewTitle">
-      <div class="modal-top"><span id="sharePreviewTitle">پیش‌نمایش استوری</span><button type="button" class="close-modal" id="closeShareModal" aria-label="بستن پیش‌نمایش">×</button></div>
-      <div class="preview-inner"><img id="sharePreviewImage" alt="پیش‌نمایش کامل تصویر فال برای استوری" width="1080" height="1920"><div class="preview-controls"><p>تصویر کامل فال، آماده برای ذخیره یا اشتراک‌گذاری</p><button type="button" class="share-button" id="sendImageButton">ارسال تصویر ↗</button><button type="button" class="minor-button" id="downloadImageButton">ذخیره تصویر PNG</button></div></div>
+      <div class="modal-top"><span id="sharePreviewTitle" data-i18n="sharePreviewTitle">پیش‌نمایش استوری</span><button type="button" class="close-modal" id="closeShareModal" aria-label="بستن پیش‌نمایش" data-i18n-aria-label="closePreview">×</button></div>
+      <div class="preview-inner"><img id="sharePreviewImage" alt="پیش‌نمایش کامل تصویر فال برای استوری" data-i18n-alt="previewImageAlt" width="1080" height="1920"><div class="preview-controls"><p data-i18n="previewDescription">تصویر کامل فال، آماده برای ذخیره یا اشتراک‌گذاری</p><button type="button" class="share-button" id="sendImageButton" data-i18n="sendImage">ارسال تصویر ↗</button><button type="button" class="minor-button" id="downloadImageButton" data-i18n="downloadImage">ذخیره تصویر PNG</button></div></div>
     </section>
   </div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>

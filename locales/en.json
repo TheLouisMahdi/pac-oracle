@@ -1,0 +1,294 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "strings": {
+    "navAbout": "About",
+    "heroTag": "An experience from Tupac's world",
+    "heroTitleLine1": "One song.",
+    "heroTitleLine2": "Unspoken words.",
+    "heroTitleLine3": "For you today.",
+    "heroDescription": "Take a moment. A random story from Tupac's music is waiting for you. It won't predict the future; it might help you see today from a different angle.",
+    "drawButton": "Draw my fortune",
+    "heroPrivacy": "No sign-up. No questions. Just a random choice.",
+    "backButton": "Back",
+    "resultKicker": "One song, one story",
+    "fortuneLabel": "Your fortune",
+    "historyLabel": "The story behind the song",
+    "sourcesLabel": "Sources and details",
+    "shareButton": "Preview and share your fortune",
+    "copyButton": "Copy text",
+    "againButton": "Another fortune",
+    "disclaimer": "An independent literary interpretation of Tupac's work, not a prophecy or an official project.",
+    "aboutTitle": "About PAC / ORACLE",
+    "aboutDescription": "Music is a starting point here: for reflection, not prediction. Each time, a random story from the archive of Tupac's work appears before you.",
+    "aboutArchive": "About the archive",
+    "aboutArchiveBody": "This archive contains 501 entries. In the current version, 36 released tracks with an initial editorial review are available for public selection. The fortunes are independent literary interpretations, and historical details are still being researched and checked.",
+    "aboutRights": "The existing images were used for the prototype. Check republication licenses for copyrighted photographs before public use.",
+    "draftCaution": "This fortune is a free interpretation of the title of a work whose text or recording was not available for review.",
+    "songDraftCaution": "This chapter is a research draft and requires source review before final publication.",
+    "copySuccess": "Fortune text copied.",
+    "copyFailed": "Couldn't copy the text. Please try again.",
+    "imageSaved": "Your fortune image is ready.",
+    "loadFailure": "Couldn't load the archive. Check your connection and try again.",
+    "noFortune": "There are no fortunes to show right now.",
+    "retry": "Try again",
+    "shareText": "My fortune from PAC / ORACLE",
+    "imageError": "Couldn't create the image.",
+    "languageComing": "More languages coming soon",
+    "referenceCaption": "Tupac, late 1980s",
+    "noSources": "No sources recorded.",
+    "pageTitle": "PAC / ORACLE | Tupac Fortune",
+    "pageDescription": "PAC / ORACLE — one song, unspoken words. A Tupac fortune experience and an independent literary interpretation of 2Pac's work.",
+    "socialDescription": "Take a moment. A story from Tupac's world is waiting for you.",
+    "socialLocale": "en_US",
+    "socialImageAlt": "PAC / ORACLE — a visual archive inspired by Tupac's world",
+    "skipLink": "Skip to main content",
+    "homeLabel": "PAC ORACLE — home",
+    "navigationLabel": "Main navigation",
+    "languageLabel": "Choose language",
+    "viewSaved": "View saved fortune",
+    "heroImageLabel": "Black-and-white portrait of Tupac Shakur",
+    "experienceLabel": "About the experience",
+    "editorialDescription": "One song at a time. A short reflection to think about, and a real story behind the music.",
+    "fortuneActionsLabel": "Fortune tools",
+    "youtubeSearch": "Find the song on YouTube Music",
+    "spotifySearch": "Find the song on Spotify",
+    "musicLinkNote": "These links search for the song title. Choose the right recording before listening.",
+    "sourceEditorialNote": "This fortune is an independent literary interpretation of the song. Historical details and content are still under review.",
+    "resultImageAlt": "Archival photograph related to Tupac Shakur",
+    "sideDescription": "Sometimes one song says more than a thousand answers.",
+    "contactLabel": "Contact links",
+    "closeDialog": "Close dialog",
+    "closePreview": "Close preview",
+    "aboutImageAlt": "Archival photograph of Tupac in 1988",
+    "sharePreviewTitle": "Story preview",
+    "previewImageAlt": "Full fortune image preview for a story",
+    "previewDescription": "Your complete fortune image, ready to save or share.",
+    "sendImage": "Share image ↗",
+    "downloadImage": "Save PNG image",
+    "savedButton": "Saved ✓",
+    "saveButton": "Save fortune",
+    "saved": "Fortune saved.",
+    "unsaved": "Fortune removed from saved items.",
+    "sendImageFailed": "Couldn't share the image. Save it instead.",
+    "languageLoadFailure": "Couldn't load this language. Please try again."
+  },
+  "fortunes": {
+    "17": {
+      "headline": "Don't judge me before you know me",
+      "fortune": "It's exhausting when people have already judged you before you speak. Your appearance, age, or past may matter more to some people than the truth. You don't have to limit yourself to the picture they've made of you. But don't let your anger at those judgments control your choices either. You are more than the label they give you.",
+      "history": "The opening track of 2Pacalypse Now, an album recorded between March and August 1991 and released that November. Tupac speaks about a young Black man's experience of policing and prejudice. In a press biography from that year, he said he performed the track in one take, drawing on his own experience.",
+      "details": "2Pac | 2Pacalypse Now | Released 1991"
+    },
+    "18": {
+      "headline": "A blocked path isn't always the end",
+      "fortune": "Sometimes it feels as though every direction leads to the same wall. Before blaming yourself for not getting somewhere, look at which obstacles are really within your control and which have been imposed from outside. Positive thinking won't open every lock. Some cages first need to be called by their real names.",
+      "history": "Tupac's first solo single from 2Pacalypse Now addresses police pressure and restricted opportunities in poor neighborhoods. In an official 1991 interview, he explained that being 'trapped' meant restrictions beyond a physical prison. The track was released with Shock G's participation.",
+      "details": "2Pac | 2Pacalypse Now | Released 1991"
+    },
+    "26": {
+      "headline": "Behind every painful story, a hidden truth",
+      "fortune": "Behind some mistakes is someone nobody came to help. Judging from a distance is easy; seeing the fear, poverty, and loneliness behind a decision is much harder. Today you may meet someone who needs to be heard more than they need advice. Before asking, 'Why did they do that?' ask, 'Who was there for them?'",
+      "history": "'Brenda's Got a Baby' tells the story of a very young girl facing abuse, pregnancy, and poverty. Tupac said a disturbing news report about a teenage girl's life inspired the song. One of his earliest well-known examples of social storytelling, it addresses vulnerable children and the failure of support networks.",
+      "details": "2Pac | 2Pacalypse Now | Released 1991"
+    },
+    "30": {
+      "headline": "Your voice deserves to be heard too",
+      "fortune": "Some things seem to go unheard when you say them alone. Maybe you've been waiting for someone else to speak first and name the problem everyone can see. But one voice can break other people's silence. Before bringing people together, make sure you know exactly what change you want. A shout cannot take the place of a direction.",
+      "history": "The first single from Tupac's second album. In interview notes from the time, he described it as a call for uprising and unity, responding to continuing discrimination after the 1992 Los Angeles riots. Compared with his first album, Tupac faced greater fame and media pressure, and his political voice sounded sharper.",
+      "details": "2Pac | Strictly 4 My N.I.G.G.A.Z... | Released 1993"
+    },
+    "40": {
+      "headline": "Being strong doesn't mean being alone",
+      "fortune": "Does someone still standing necessarily mean they're doing well? A woman around you may carry more each day than you can see and receive less respect than she deserves. Instead of admiring her resilience from a distance, consider what would actually lighten her load. Sometimes respect shows in everyday behavior, rather than beautiful words.",
+      "history": "Tupac wrote this song for women who had connected with the story of 'Brenda's Got a Baby.' He sings about respect for Black women and mothers, and the pressure of social inequality. Released on his second album alongside its angrier tracks, it is one of his clearest expressions of social empathy.",
+      "details": "2Pac | Strictly 4 My N.I.G.G.A.Z... | Released 1993"
+    },
+    "43": {
+      "headline": "Not every kind of attention is love",
+      "fortune": "Being attractive to others doesn't always mean knowing how to be in a relationship. Maybe you've confused freedom with avoiding every commitment, or others expect something you don't want to accept. Being honest about what you want is better than making a promise you don't intend to keep. You have the right to enjoy yourself; you don't have the right to play with people.",
+      "history": "With members of Digital Underground, Tupac sings about casual relationships and sexual pleasure on this upbeat, dance-friendly track. He explicitly said it wasn't moral advice, but a description of behavior he saw among touring artists. Its contrast with 'Keep Ya Head Up' is part of the well-known contradictions of his second album.",
+      "details": "2Pac | Strictly 4 My N.I.G.G.A.Z... | Released 1993"
+    },
+    "44": {
+      "headline": "Some absences never quite go away",
+      "fortune": "No explanation can fill the space some people leave. Maybe you've spent years waiting for an apology from someone whose absence changed your life. You have the right to be angry about that absence. But you don't have to keep your whole future waiting for their return. One person's absence shouldn't become your permanent definition of yourself.",
+      "history": "Tupac connected this song to his own father and to fathers who leave their families and may later return. In commentary published with the album, he spoke about his unfamiliarity with a father's role. The song shows anger and deprivation from a child's perspective, while also bringing in the voice of the other side of the relationship.",
+      "details": "2Pac | Strictly 4 My N.I.G.G.A.Z... | Released 1993"
+    },
+    "51": {
+      "headline": "Some losses stay with us for a long time",
+      "fortune": "Missing someone doesn't always show itself in tears. After someone was gone, maybe you worked, joked, or even became angry, then wondered why you weren't grieving like everyone else. There is no single shape for loss. Just don't let the anger left behind by grief hurt the people still living. You don't have to forget in order to carry on.",
+      "history": "Made in memory of the group's late friend Kato. Tupac, Big Syke, and other Thug Life members, joined by Nate Dogg, speak of grief, memories of friendship, and the desire for revenge. The title asks how long sorrow lasts, while also expressing a bitter worry about who will remember them after their own deaths.",
+      "details": "2Pac | Thug Life: Volume 1 | Released 1994"
+    },
+    "58": {
+      "headline": "When the world is against you, don't lose yourself",
+      "fortune": "Being alone doesn't always mean you're in the wrong. Maybe lately everything seems to go against your plans and nobody understands how you feel. You can use that feeling to keep moving, but you don't have to turn the whole world into an enemy. Even one trustworthy person can make a big difference. Being independent isn't the same as fighting alone.",
+      "history": "The title track of Tupac's third album features Dramacydal. He speaks about police pressure, neighborhood violence, the deaths of friends, and distrust, but ends by encouraging the listener to hold on to their identity and endure. It is a clear example of the mixture of pessimism and hope in his music before his release from prison.",
+      "details": "2Pac | Me Against the World | Released 1995"
+    },
+    "59": {
+      "headline": "There are tears nobody sees",
+      "fortune": "Sometimes someone is still breathing but feels far more exhausted inside than they show. Maybe you've experienced several losses or worries in a row and haven't had time to grieve. You don't have to keep everything inside to prove your strength. If the pressure has become too much, talking to someone you feel safe with can be a start. Unspoken pain doesn't disappear on its own.",
+      "history": "In 'So Many Tears,' Tupac sings about friends' deaths, childhood memories, fear, guilt, and a longing for peace. He repeatedly remembers Kato and moves between wanting to change and feeling trapped. Released on the 1995 album and later as a single, the track is far more vulnerable than his image as a fearless fighter.",
+      "details": "2Pac | Me Against the World | Released 1995"
+    },
+    "64": {
+      "headline": "Some kinds of love take time to understand",
+      "fortune": "Maybe the person you've complained about most has fought hardest for you. Some acts of love become visible only when it's late, or when you've tasted hardship yourself. You don't have to make the past look perfect; you can recognize both the wounds and the effort. Gratitude means seeing a person's truth more fully.",
+      "history": "Tupac dedicated this song to his mother, Afeni Shakur, openly addressing poverty, teenage disagreements, his father's absence, and his mother's addiction. Despite those painful experiences, he honors her sacrifices. Released as a single in 1995 before his third album, 'Dear Mama' is one of his most important personal works.",
+      "details": "2Pac | Me Against the World | Released 1995"
+    },
+    "67": {
+      "headline": "The past still has something to say",
+      "fortune": "Not everything new has to be better than an old memory. Sometimes, while everyone competes to be more current, we forget who opened the way. Today might be a good time to return to what you first fell in love with, to learn from it rather than stay in the past. Having roots doesn't stop you from growing.",
+      "history": "In 'Old School,' Tupac fondly remembers pioneering hip-hop artists, DJs, and the atmosphere in which rap culture took shape. Although he had become a star of a new generation, he acknowledges his debt to earlier ones. The song appears on his 1995 album and shows his appreciation of history and those who came before him.",
+      "details": "2Pac | Me Against the World | Released 1995"
+    },
+    "71": {
+      "headline": "Succeed for yourself, not for revenge",
+      "fortune": "Sometimes you want to succeed simply because you never want anyone to humiliate you again. Anger can be a powerful engine, but if you give it the steering wheel too, it may take you to the wrong destination. Today, ask yourself whether you're fighting for your dream or answering the past. Victory belongs to you when you've chosen it yourself.",
+      "history": "The aggressive opening track of All Eyez on Me announces Tupac's return after prison. He speaks of ambition, threats against enemies, police, and wealth. Released in February 1996 after he joined Death Row, the album puts the image of the street fighter at the center of his new identity through this song.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "75": {
+      "headline": "Know your own wishes apart from other people's eyes",
+      "fortune": "When all eyes are on you, you may forget what you actually want. Other people's approval feels good, but it can come with expectations and interference. Distinguish pleasure you've chosen from a performance meant to please others. If someone wants something from you, you also have the right to set boundaries. Attention isn't always respect.",
+      "history": "Joined by K-Ci & JoJo on this popular track, Tupac moves between sexual pleasure and responses to media and political critics. The lyrics also address the pressure of public opinion. Released on All Eyez on Me in February 1996 and later as a single, it shows the coexistence of celebration and confrontation in this period.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "76": {
+      "headline": "Not every ally is heading where you are",
+      "fortune": "Two people can become very powerful together without necessarily following the right path. Maybe you've found someone as daring as you are, and everyone talks about your strength together. Before taking the next step, ask yourself what this alliance creates and what it destroys. Loyalty doesn't erase responsibility for the choices you make together.",
+      "history": "In this famous collaboration, Tupac and Snoop Doggy Dogg rap about fame, police, money, and a gangster identity. The title is an ironic reference to being 'most wanted.' From 1996's All Eyez on Me, the song showcases the shared position of Death Row's two stars.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "79": {
+      "headline": "Life goes on, even when it hurts",
+      "fortune": "Some people leave, and the world carries on mercilessly. Maybe you still wish time would stop on one particular day. You have the right to keep someone's memory, even when everyone else has returned to ordinary life. But moving forward isn't a betrayal of that memory. You can love someone for the rest of your life and still go on living.",
+      "history": "In this lament for friends who were killed, Tupac pictures funerals and the fear of an early death. Alongside that bitterness, he speaks of life continuing for those left behind. Released on All Eyez on Me in 1996, it clearly shows the longing and thoughts of death present in his otherwise loud and celebratory album.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "80": {
+      "headline": "Nobody knows your whole story",
+      "fortune": "Tired of everyone passing judgment on you? You may really have faced unfair judgments. Still, the fact that others shouldn't define you by one mistake doesn't mean you have no responsibility. You can defend your privacy and acknowledge your own mistakes at the same time. Reject hasty judgment, without rejecting accountability.",
+      "history": "With Rappin' 4-Tay, Tupac addresses distrust, shootings, social judgment, and spiritual accountability. The title leaves final judgment to God, but the lyrics also contain threats and pessimism. From his 1996 album, the song shows the tension between wanting to be understood and displaying violence.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "82": {
+      "headline": "Sometimes you just need to live",
+      "fortune": "Sometimes life needs a night of celebration rather than a long explanation. If you've been under pressure for a long time, you deserve a moment to enjoy your success. Just make sure being seen doesn't force you to keep playing the happy person. A real celebration is beautiful when you can still be yourself the next day. Joy isn't meant to hide something.",
+      "history": "'California Love' is Tupac and Dr. Dre's famous collaboration celebrating California and the West Coast party scene. The original single came out in late 1995, but the version on All Eyez on Me in February 1996 is a remix. To avoid duplication, the song's versions share one chapter in this project.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "83": {
+      "headline": "People change; resentment doesn't have to follow",
+      "fortune": "People change, sometimes without meaning to leave you behind. A friend who chooses a new path hasn't necessarily betrayed the past. You may feel hurt, but you can be happy for them without holding on to old pain. Not everyone grows at the same pace or in the same direction. Some goodbyes are gentler with forgiveness.",
+      "history": "With Danny Boy singing, Tupac speaks about friends who took different paths through prison, religion, family, or success. Instead of threats, the song offers acceptance of growing apart and memories of the past. Released on the 1996 album, its famous video drew more attention after Tupac's death.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "87": {
+      "headline": "Betrayal hurts most when it comes from close by",
+      "fortune": "A wound from someone close takes longer to heal. Maybe you're still carrying words you never had the chance to say. You can express the truth of your hurt without spending your whole life proving someone else was at fault. Be careful that old anger doesn't contaminate every new relationship. Past betrayal shouldn't become the rule for future trust.",
+      "history": "On this track, Tupac refers to the pain of betrayal, the 1994 shooting, and disagreements with people close to him, voicing personal, sharp complaints. The targets of some passages remain debated, so every detail should not be treated as settled historical fact. It appeared on the second disc of his 1996 album.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "91": {
+      "headline": "Surviving is a victory in itself",
+      "fortune": "When you come out of a difficult time, you want everyone to see that you endured. Maybe someone is still waiting to watch you fail. You deserve to enjoy your freedom and achievements, but your happiness doesn't have to be addressed entirely to old enemies. The best part of arriving is when you no longer need an audience.",
+      "history": "With Big Syke and CPO, Tupac speaks about freedom, luxury cars, money, and moving beyond his time in prison. The track is particularly associated with the image of moving freely through the streets. All Eyez on Me was recorded shortly after Tupac's 1995 release and came out in February 1996.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "94": {
+      "headline": "Being seen isn't the same as being understood",
+      "fortune": "Being seen is different from being understood. Maybe lately it feels as though everyone has an opinion on your choices, from those closest to you to people you don't know. You don't have to answer every look, but you can't hide responsibility for your actions behind fame or pressure either. When all eyes are on you, your own gaze matters most.",
+      "history": "On the album's title track, Tupac speaks about fame, police surveillance, enemies, and feeling under a microscope. The album title sums up his life after prison and the intense media attention around him. Released in February 1996, the song is a central track of his two-disc project.",
+      "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "99": {
+      "headline": "When anger meets faith",
+      "fortune": "When anger and faith share one heart, making decisions becomes difficult. Maybe you want revenge while also searching for a sign of peace. Don't mistake those two voices for each other. Pain may explain your anger, but that anger doesn't have to write your future. Not every prayer is an answer to a war.",
+      "history": "As Makaveli, Tupac draws on prayer, threats, death, hostility, and a desire for release. The religious title 'Hail Mary' sits alongside violent street imagery, creating the song's contrast. Recorded in summer 1996, it was released on the posthumous album The 7 Day Theory.",
+      "details": "2Pac | The Don Killuminati | Released 1996"
+    },
+    "101": {
+      "headline": "Some cities become part of who we are",
+      "fortune": "Sometimes a city is more than somewhere to live; it's part of your identity. You can be tired of its streets and still unable to let go of it. Home isn't always perfect. It holds memories, pain, and contradictory people. Loving a place means seeing both its goodness and its wounds.",
+      "history": "With Val Young's vocals, Tupac speaks about Los Angeles: its neighborhoods, money, tension, and his love for the city he calls home. Recorded during the Makaveli period, the track was released after his death in November 1996. Alongside affection for the city, the lyrics reflect the tense atmosphere of rap rivalries.",
+      "details": "2Pac | The Don Killuminati | Released 1996"
+    },
+    "107": {
+      "headline": "Don't cling to something that won't let you be free",
+      "fortune": "Not every relationship we become attached to is with a person. Sometimes you think something is your only refuge while it brings you closer to danger every day. If leaving it seems impossible, maybe it's time to name that dependence honestly. Loyalty to something that destroys you isn't love.",
+      "history": "The title deliberately leads the listener to imagine a romance, but the 'girlfriend' in Tupac's story is a metaphor for a gun. Through the image of romantic loyalty, he links violence with dependence on a weapon. Released on the 1996 Makaveli album, the track should not be read simply as a love song.",
+      "details": "2Pac | The Don Killuminati | Released 1996"
+    },
+    "108": {
+      "headline": "Freedom matters more than money",
+      "fortune": "Your bank account may have grown without making you feel any freer. If you've sacrificed sleep, peace, and important people in your life to achieve something, perhaps it's time to redefine success. Today, hold on to one thing money can't buy. Freedom means more than an open door.",
+      "history": "On this track, Tupac pays tribute to prisoners, including political prisoners, and speaks about anxiety, fame, and the value of freedom. In the lyrics, money means less when measured against freedom. It belongs to the last album recorded during his lifetime, released after his death in November 1996.",
+      "details": "2Pac | The Don Killuminati | Released 1996"
+    },
+    "128": {
+      "headline": "Love shouldn't make you lose yourself",
+      "fortune": "Love becomes dangerous when you forget yourself to keep it. Maybe you've repeatedly done things that went against your judgment and peace of mind simply because you didn't want to lose someone. Having feelings isn't wrong, but losing every boundary can hurt you. Look at the relationship from the outside for a moment. Loving someone shouldn't mean disappearing.",
+      "history": "Featuring Eric Williams of Blackstreet in its released version, this song addresses emotional attraction, betrayal, dependence, and decisions made for love. It samples Bobby Caldwell's 'What You Won't Do for Love.' The familiar version appeared after Tupac's death on the 1997 album and became a successful single.",
+      "details": "2Pac | R U Still Down? | Released 1997"
+    },
+    "138": {
+      "headline": "Look in the rearview mirror; don't live in it",
+      "fortune": "Don't always look in the rearview mirror, but don't forget it either. Maybe something from the past still follows you: a mistake, a relationship, or a missed opportunity. Looking back is useful for understanding, rather than living in the same scene. Learn from what you've been through, then look ahead again. Driving with your eyes fixed behind you isn't the way out.",
+      "history": "This collaboration between Tupac and the Outlawz appeared on the soundtrack of Gang Related in 1997. Its theme is looking back while danger and pursuit continue, and the rearview mirror metaphor fits the film's atmosphere. The recording dates from Tupac's lifetime, although the final release came after his death.",
+      "details": "2Pac | Gang Related | Released 1997"
+    },
+    "142": {
+      "headline": "Real love isn't measured in fear",
+      "fortune": "Real affection doesn't demand a daily loyalty test. Maybe you love someone but constantly fear their feelings will change if you aren't successful. Unconditional love doesn't mean tolerating every behavior; it means not measuring a person's worth only by money and status. Notice where you're seen in your relationships and where you're only assessed. Being loved shouldn't be a performance reward.",
+      "history": "A song about love and loyalty, performed by Tupac with Nanci Fletcher's vocals and released on Greatest Hits in 1998. The original vocal was recorded in 1996, while the final version was prepared after his death. Alongside the violent works of the same period, it reveals a gentler, more family-centered side of his outlook.",
+      "details": "2Pac | Greatest Hits | Released 1998"
+    },
+    "143": {
+      "headline": "Anger doesn't always get the last word",
+      "fortune": "Anger can make you look invincible for a few minutes. What comes next? Maybe someone insulted you and you want to answer in a way everyone will remember. First ask whether you're looking for a solution or an audience. Some responses echo for years beyond the disagreement itself. Winning a fight doesn't always make life better.",
+      "history": "Tupac's diss track featuring the Outlawz first appeared in 1996 as the companion track to the 'How Do U Want It' single, and later on Greatest Hits. The lyrics directly attack The Notorious B.I.G. and his associates. It is one of the fiercest expressions of the East Coast–West Coast hip-hop conflict of that period.",
+      "details": "2Pac | Greatest Hits | Released 1998"
+    },
+    "145": {
+      "headline": "Nothing changes unless someone wants it to",
+      "fortune": "When everyone says, 'That's just how the world is,' ask yourself who benefits from it staying that way. Maybe you've spent a long time putting up with injustice or an unwritten rule. Change doesn't always begin with a grand decision; sometimes it starts by questioning something everyone considers normal. If something is wrong, being old doesn't make it right.",
+      "history": "Tupac recorded the song years before its release, and the famous version came out posthumously in 1998. A piano sample from Bruce Hornsby's 'The Way It Is' gives life to a protest against racism, poverty, drugs, and police violence. It is among his best-known social and posthumous works.",
+      "details": "2Pac | Greatest Hits | Released 1998"
+    },
+    "172": {
+      "headline": "Big promises face big tests",
+      "fortune": "The promise 'for the rest of my life' is beautiful, but people change along the way. Maybe you're still loyal to a relationship, an idea, or an image of yourself formed years ago. Loyalty matters, yet you can ask what should stay and what has the right to change. Staying true to your values doesn't always mean staying the same person.",
+      "history": "The title track of the 2001 posthumous album finds Tupac speaking about friendship, fame, people changing, and loyalty until the end. The song also draws on pop and R&B sounds and is connected with the Outlawz. The RP Remix is a version of the same song and is not numbered as another fortune in this collection.",
+      "details": "2Pac | Until the End of Time | Released 2001"
+    },
+    "195": {
+      "headline": "Maybe you just need somewhere safe",
+      "fortune": "Maybe what you're searching for isn't more success, just somewhere safe. A place where you don't have to explain why you're tired or be ready to defend yourself every moment. Ask yourself where, and with whom, you can truly feel at peace. Sometimes the biggest dream is one night without worry.",
+      "history": "Tupac imagines a place of peace for people who have lived under the pressure of poverty, shootings, and death. An acoustic version with Nas and another version with Anthony Hamilton appeared on Better Dayz in 2002; both rework the same song. Its references to death and suffering are serious.",
+      "details": "2Pac | Better Dayz | Released 2002"
+    },
+    "198": {
+      "headline": "Better days begin today",
+      "fortune": "Better days don't start by denying today. Maybe you're tired of everyone saying, 'It'll be fine,' while the problem is still right in front of you. Hope is serious when it addresses the causes of hardship and does something to change them. You don't have to fix everything yourself, but you can choose your part. Hope isn't another name for forgetting.",
+      "history": "On the title track of the 2002 album, Tupac speaks about drugs, murder, poverty, prison, and hope for a safer neighborhood. The album version was released with Mr. Biggs's vocals. Despite its hopefulness, the track doesn't offer a simplified or sanitized picture of street life.",
+      "details": "2Pac | Better Dayz | Released 2002"
+    },
+    "209": {
+      "headline": "Sometimes you have to stop running",
+      "fortune": "If you're running all day, stop once to ask what you're running from. Maybe you've been in such a hurry to save yourself that you haven't noticed which fear still follows you. Sometimes the circumstances need to change; sometimes your way of seeing them does. Aimless running won't solve either. Finding a way out begins with recognizing the danger.",
+      "history": "Combining recorded vocals by Tupac and The Notorious B.I.G. with production by Eminem, this track appeared on the 2003 documentary soundtrack. It addresses violence, death, and life under pressure. The final combination was made after both rappers had died, rather than being a new collaboration between them.",
+      "details": "2Pac | Tupac: Resurrection | Released 2003"
+    },
+    "214": {
+      "headline": "Before judging, see the world through their eyes",
+      "fortune": "Before judging the next generation, look at the world you've left them. You may be angry at younger people's behavior while overlooking the fears and failures surrounding them. Blame alone doesn't bring change. Sometimes the right question isn't, 'Why did they turn out this way?' but, 'What did we give them?'",
+      "history": "On this song, Tupac speaks about violence, racism, young people, and a wish for peace. The 2004 version, produced by Eminem, uses parts of Elton John's music and was released on Loyal to the Game. The verses and final arrangement belong to two different periods.",
+      "details": "2Pac | Loyal to the Game | Released 2004"
+    }
+  }
+}

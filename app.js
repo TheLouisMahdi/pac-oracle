@@ -4,6 +4,7 @@ const $ = id => document.getElementById(id);
 const RECENT_KEY = 'pac-oracle-recent-v1';
 const SAVED_KEY = 'pac-oracle-saved-v1';
 const MAX_RECENT = 20;
+const LANGUAGE_KEY = 'pac-oracle-language-v1';
 const memoryStorage = new Map();
 const DEFAULT_TEXT = {
   copySuccess: 'متن فال کپی شد.', copyFailed: 'کپی انجام نشد.',
@@ -23,6 +24,76 @@ let previewUrl = null;
 let previewBlob = null;
 let photoPools = {};
 const photoHistory = {};
+let currentLanguage = 'fa';
+let currentLocale = null;
+let languageRequest = 0;
+const localeCache = new Map();
+
+function localizedFortune(item) {
+  const translation = currentLanguage === 'en' ? currentLocale?.fortunes?.[item.id] : null;
+  return translation ? { ...item, ...translation } : item;
+}
+function applyLocale(locale) {
+  currentLocale = locale;
+  currentLanguage = locale.lang;
+  messages = { ...DEFAULT_TEXT, ...locale.strings };
+  document.documentElement.lang = locale.lang;
+  document.documentElement.dir = locale.dir;
+  document.title = messages.pageTitle;
+  for (const [attribute, target] of [['data-i18n', null], ['data-i18n-aria-label', 'aria-label'], ['data-i18n-alt', 'alt']]) {
+    document.querySelectorAll(`[${attribute}]`).forEach(element => {
+      const text = messages[element.getAttribute(attribute)];
+      if (typeof text !== 'string') return;
+      if (target) element.setAttribute(target, text);
+      else element.textContent = text;
+    });
+  }
+  for (const [selector, key] of [
+    ['meta[name="description"]', 'pageDescription'], ['meta[property="og:title"]', 'pageTitle'],
+    ['meta[property="og:description"]', 'socialDescription'], ['meta[property="og:locale"]', 'socialLocale'],
+    ['meta[property="og:image:alt"]', 'socialImageAlt']
+  ]) document.querySelector(selector)?.setAttribute('content', messages[key]);
+  $('languageCode').textContent = locale.lang.toUpperCase();
+  document.querySelectorAll('[data-language]').forEach(button => {
+    button.setAttribute('aria-pressed', String(button.dataset.language === locale.lang));
+  });
+  $('toast').classList.remove('show');
+  if (currentFortune) fillResult(currentFortune);
+  else updateSavedButtons();
+}
+async function setLanguage(language, updateUrl = true) {
+  if (!['fa', 'en'].includes(language)) language = 'fa';
+  const request = ++languageRequest;
+  try {
+    if (!localeCache.has(language)) {
+      const response = await fetch(`locales/${language}.json`);
+      if (!response.ok) throw new Error('Language not available');
+      const locale = await response.json();
+      if (locale.lang !== language || !locale.strings) throw new Error('Invalid language');
+      if (language === 'en' && eligibleFortunes.some(item =>
+        ['headline', 'fortune', 'history', 'details'].some(key => typeof locale.fortunes?.[item.id]?.[key] !== 'string')
+      )) throw new Error('Incomplete translation');
+      localeCache.set(language, locale);
+    }
+    if (request !== languageRequest) return;
+    applyLocale(localeCache.get(language));
+    putLocal(LANGUAGE_KEY, language);
+    if (updateUrl) {
+      const url = new URL(location.href);
+      if (language === 'en') url.searchParams.set('lang', 'en');
+      else url.searchParams.delete('lang');
+      try { history.replaceState({ fortuneId: currentIdInUrl() }, '', url.pathname + url.search + url.hash); } catch { /* Local preview. */ }
+    }
+  } catch (error) {
+    console.error('PAC / ORACLE language:', error);
+    if (request === languageRequest) showToast(messages.languageLoadFailure);
+  } finally {
+    if (request === languageRequest) {
+      $('languagePanel').hidden = true;
+      $('languageButton').setAttribute('aria-expanded', 'false');
+    }
+  }
+}
 const IMAGE_FALLBACKS = {
   hero: ['assets/hero-portrait.webp', 'assets/images/archive/a02.jpg', 'assets/images/archive/a06.jpg'],
   result: ['assets/result-portrait.webp', 'assets/images/archive/a02.jpg', 'assets/images/archive/a03.jpg', 'assets/images/archive/a04.jpg', 'assets/images/archive/a06.jpg'],
@@ -145,7 +216,7 @@ function updateSavedButtons() {
   $('savedFortuneButton').hidden = !savedExists;
   const isSaved = Boolean(currentFortune && currentFortune.id === id && savedExists);
   $('saveButton').setAttribute('aria-pressed', String(isSaved));
-  $('saveButtonText').textContent = isSaved ? 'ذخیره‌شده ✓' : 'ذخیره فال';
+  $('saveButtonText').textContent = isSaved ? messages.savedButton : messages.saveButton;
 }
 function toggleSave() {
   if (!currentFortune) return;
@@ -161,6 +232,7 @@ function openSaved() {
 
 function fillResult(item) {
   currentFortune = item;
+  item = localizedFortune(item);
   const number = String(item.id).padStart(3, '0');
   $('fortuneNumber').textContent = `NO. ${number}`;
   $('sheetChapterCode').textContent = `${number} / WORDS THAT FIND YOU`;
@@ -255,7 +327,8 @@ function goHome(event) {
 
 function shareableText() {
   if (!currentFortune) return '';
-  return `PAC / ORACLE | ${currentFortune.song}\n${currentFortune.headline || ''}\n\n${currentFortune.fortune}\n\n${location.href}`;
+  const item = localizedFortune(currentFortune);
+  return `PAC / ORACLE | ${item.song}\n${item.headline || ''}\n\n${item.fortune}\n\n${location.href}`;
 }
 async function copyFortune() {
   if (!currentFortune) return;
@@ -291,6 +364,9 @@ function wrapText(ctx, text, width) {
   return lines;
 }
 async function createStoryImage(item) {
+  item = localizedFortune(item);
+  const storyMessages = messages;
+  const isEnglish = currentLanguage === 'en';
   await Promise.race([document.fonts.ready, delay(2000)]);
   const canvas = document.createElement('canvas');
   canvas.width = 1080;
@@ -336,16 +412,16 @@ async function createStoryImage(item) {
   });
   ctx.fillStyle = '#b52b35';
   ctx.fillRect(121, 710, 90, 6);
-  ctx.direction = 'rtl';
-  ctx.textAlign = 'right';
+  ctx.direction = isEnglish ? 'ltr' : 'rtl';
+  ctx.textAlign = isEnglish ? 'left' : 'right';
   ctx.fillStyle = '#6b554a';
   ctx.font = '600 33px "Vazirmatn", Tahoma, sans-serif';
-  ctx.fillText('فال تو', 953, 776);
+  ctx.fillText(storyMessages.fortuneLabel, isEnglish ? 121 : 953, 776);
   ctx.fillStyle = '#171617';
   ctx.font = '700 36px "Vazirmatn", Tahoma, sans-serif';
   const headlineLines = wrapText(ctx, item.headline || '', 828).slice(0, 2);
   let headlineY = 835;
-  headlineLines.forEach(line => { ctx.fillText(line, 953, headlineY); headlineY += 49; });
+  headlineLines.forEach(line => { ctx.fillText(line, isEnglish ? 121 : 953, headlineY); headlineY += 49; });
 
   const availableHeight = 510;
   const maxWidth = 835;
@@ -369,7 +445,7 @@ async function createStoryImage(item) {
   ctx.fillStyle = '#171617';
   let y = 948;
   lines.forEach(line => {
-    ctx.fillText(line, 953, y);
+    ctx.fillText(line, isEnglish ? 121 : 953, y);
     y += lineHeight;
   });
   ctx.fillStyle = '#1b1a1b';
@@ -443,7 +519,7 @@ async function sendPreview() {
   const file = new File([previewBlob], `pac-oracle-${currentFortune.id}.png`, { type: 'image/png' });
   if (navigator.share && navigator.canShare?.({ files: [file] })) {
     try { await navigator.share({ files: [file], title: 'PAC / ORACLE', text: currentFortune.song }); }
-    catch (error) { if (error.name !== 'AbortError') showToast('ارسال تصویر انجام نشد. از ذخیره تصویر استفاده کن.'); }
+    catch (error) { if (error.name !== 'AbortError') showToast(messages.sendImageFailed); }
   } else downloadPreview();
 }
 
@@ -485,13 +561,27 @@ function installEvents() {
     $('languagePanel').hidden = !$('languagePanel').hidden;
     $('languageButton').setAttribute('aria-expanded', String(!$('languagePanel').hidden));
   });
+  document.querySelectorAll('[data-language]').forEach(button => {
+    button.addEventListener('click', () => setLanguage(button.dataset.language));
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !$('languagePanel').hidden) {
+      $('languagePanel').hidden = true;
+      $('languageButton').setAttribute('aria-expanded', 'false');
+      $('languageButton').focus();
+    }
+  });
   document.addEventListener('click', event => {
     if (!event.target.closest('.language-wrap')) {
       $('languagePanel').hidden = true;
       $('languageButton').setAttribute('aria-expanded', 'false');
     }
   });
-  window.addEventListener('popstate', routeFromUrl);
+  window.addEventListener('popstate', async () => {
+    const language = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'fa';
+    if (language !== currentLanguage) await setLanguage(language, false);
+    routeFromUrl();
+  });
 }
 
 async function initialize() {
@@ -507,12 +597,8 @@ async function initialize() {
     if (!Array.isArray(database.fortunes)) throw new Error('Invalid data');
     if (embeddedLocale || localeResponse?.ok) {
       const locale = embeddedLocale ? JSON.parse(embeddedLocale.textContent) : await localeResponse.json();
-      messages = { ...DEFAULT_TEXT, ...locale.strings };
-      document.documentElement.lang = locale.lang;
-      document.documentElement.dir = locale.dir;
-      document.querySelectorAll('[data-i18n]').forEach(element => {
-        if (typeof messages[element.dataset.i18n] === 'string') element.textContent = messages[element.dataset.i18n];
-      });
+      localeCache.set('fa', locale);
+      applyLocale(locale);
     }
     eligibleFortunes = database.fortunes.filter(item =>
       item.public_eligible === true && item.status === 'song_context_draft' &&
@@ -521,6 +607,9 @@ async function initialize() {
       typeof item.history === 'string' && item.history.trim()
     );
     if (!eligibleFortunes.length) throw new Error('No verified preview items');
+    const urlLanguage = new URLSearchParams(location.search).get('lang');
+    const language = urlLanguage === 'en' || urlLanguage === 'fa' ? urlLanguage : getLocal(LANGUAGE_KEY, 'fa');
+    await setLanguage(language);
     await loadPhotoIndex();
     routeFromUrl();
     try { history.replaceState({ fortuneId: currentIdInUrl() }, '', location.href); } catch { /* Local preview. */ }
