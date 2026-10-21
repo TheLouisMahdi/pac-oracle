@@ -70,6 +70,102 @@
     "languageLoadFailure": "Couldn't load this language. Please try again."
   },
   "fortunes": {
+    "1": {
+      "headline": "Some people have to grow up before their time.",
+      "fortune": "Some people are forced to grow up before they are ready. Maybe you are carrying the weight of a decision you never felt prepared to make. Before looking for someone to blame, ask what support was missing and what help could make a difference now. Responsibility does not have to mean facing everything alone.",
+      "history": "One of the earliest known recordings by teenage Tupac and his friends in Baltimore, this song addresses teenage pregnancy, responsibility, and social pressure. Years later, he would revisit the concern more tragically in 'Brenda’s Got a Baby.' The 1987 date comes from specialist archives, not an official release from that year.",
+      "details": "2Pac | c. 1987 | Unofficially released years later"
+    },
+    "2": {
+      "headline": "Waiting for someone to discover your talent?",
+      "fortune": "Are you waiting for someone to discover your talent? That day may never arrive on its own. Sometimes you have to step forward and show people what you can do. But making noise is not enough: what remains after the excitement fades is the quality of your work. Being noticed is the beginning, not the finish line.",
+      "history": "This track survives on a cappella demo tapes by the teenage Baltimore group Born Busy. Performing as MC New York, Tupac trades energetic call-and-response verses with his friend Ace Rocker. The point was to display skill, excite a crowd, and compete musically rather than deliver a detailed political argument.",
+      "details": "2Pac | c. 1988 | Born Busy demo tape"
+    },
+    "3": {
+      "headline": "Sometimes a rival shows you how ready you really are.",
+      "fortune": "Competition can reveal what you are capable of. Just be careful not to turn your entire life into a mission to defeat everybody else. If proving superiority becomes the only goal, you might forget the joy of making something worthwhile. Let competition push you forward, but choose a destination beyond your opponents.",
+      "history": "This a cappella performance by Tupac and Ace Rocker dates to their Born Busy period. It centers on showing off rap skills in the competitive hip-hop culture of the 1980s and resembles a verbal battle between local crews. The approximate 1988 date is drawn from documentation of Tupac's teenage tapes.",
+      "details": "2Pac | c. 1988 | Born Busy demo tape"
+    },
+    "4": {
+      "headline": "Not everything that catches your eye deserves your pursuit.",
+      "fortune": "Not everything that catches your attention is worth chasing, especially when someone else's feelings and trust are involved. Something exciting may be tempting you right now, but attractive and right are not the same thing. Some choices taste sweet for a few minutes and reveal their true cost much later.",
+      "history": "In this early Born Busy performance, Tupac and Ace Rocker explore attraction, relationships, and romantic rivalry. The known recording is incomplete and a cappella. Its story should therefore not be described with the certainty we would apply to a finished, officially released song.",
+      "details": "2Pac | c. 1988 | Incomplete a cappella recording"
+    },
+    "5": {
+      "headline": "Nobody may see the work you do offstage.",
+      "fortune": "Nobody may notice the hours you put in behind the scenes. From the outside, success looks sudden; from the inside, it is repetition and countless ordinary days. If you need applause after every effort, you may quit during the hardest stretch. What you build every day matters more than what you show once.",
+      "history": "The title appears on an old Born Busy tape list, dated July 12, 1988 by a research archive. The archive describes its theme as the group's dedication to music. As a reliable full lyric transcription was not found in the cited material, this reflection draws only on that documented description.",
+      "details": "2Pac | July 12, 1988 | Born Busy tape, archival date"
+    },
+    "6": {
+      "headline": "You are not the only one building this success.",
+      "fortune": "You are not the only person making this success possible. Someone beside you may get little recognition, yet without them everything would change. Think about the people working behind the scenes, not just the one standing in the spotlight. Some of the real heroes never hold the microphone.",
+      "history": "A Born Busy-era tribute to the group's DJ, Gerard Young, known as DJ Plain Terror. In hip-hop culture of that period, the DJ was as important to a live performance as the rapper. Complete lyrics are not readily verifiable; the fortune is based on the track's documented role in the group's archive.",
+      "details": "2Pac | c. 1988 | Dedicated to DJ Plain Terror"
+    },
+    "7": {
+      "headline": "Sometimes you fall for the idea of someone.",
+      "fortune": "Sometimes you fall harder for the person you imagine than for the person you actually know. In fantasy, everything unfolds just as you wish; real life asks questions and catches you off guard. If your heart is caught up in someone, ask how much you truly know. Imagination is beautiful, but it cannot replace understanding.",
+      "history": "In an early collaboration with Ryan D, Tupac tells a playful story about infatuation, nervousness around a crush, and the line between dreams and reality. The recording is associated with the One Nation Emcees period around 1989. It reveals a humorous, romantic side of Tupac before fame.",
+      "details": "2Pac | c. 1989 | One Nation Emcees, unofficial release"
+    },
+    "8": {
+      "headline": "Trying to look unbeatable can become its own trap.",
+      "fortune": "If your whole message is 'nobody can beat me,' you might care too much about what others think. Confidence matters, but confidence built entirely on comparisons makes every new rival a threat. Improve your craft until the work speaks for itself. Being resilient is not the same as pretending you cannot lose.",
+      "history": "An early competitive rap recording. One version with Ryan D is associated with One Nation Emcees, while another was later recorded with Strictly Dope. Tupac and his collaborators use wordplay and exaggerated bravado to challenge rivals. The Strictly Dope version appeared later on the Beginnings compilation.",
+      "details": "2Pac | c. 1989 | Early and rerecorded versions"
+    },
+    "9": {
+      "headline": "The biggest barrier may be the one you stopped noticing.",
+      "fortune": "Maybe the greatest obstacle in your life has become so familiar that you no longer see it. Ask which rule, expectation, or accepted story has quietly narrowed your choices. You cannot break every barrier alone, but you can begin by naming it. Freedom starts with difficult questions.",
+      "history": "Rooted in the political legacy of the Black Panther movement and experiences of racial discrimination in the United States, the song challenges promises of equality and the 'American Dream.' Tupac's mother, Afeni Shakur, was a political activist. Early versions date to the late 1980s; a Strictly Dope version was released later.",
+      "details": "2Pac | c. 1989 | Early version; released later"
+    },
+    "10": {
+      "headline": "Are you trusting your tools more than your talent?",
+      "fortune": "What if you have begun to trust a tool, an opportunity, or someone standing beside you more than your own ability? One day that support might disappear. Only then may you discover which strength truly belongs to you. The thing that makes you capable is not always the thing you expect.",
+      "history": "In this humorous track, Tupac misplaces his microphone before a rap contest and panics, eventually realizing he can still perform without it. The story unfolds through dialogue with friends. It is an early Strictly Dope recording later issued in a compilation of his beginnings.",
+      "details": "2Pac | c. 1989 | Strictly Dope; later release"
+    },
+    "11": {
+      "headline": "Being heard starts with knowing more, not shouting louder.",
+      "fortune": "If people do not take you seriously, your first response need not be raising your voice. Learn more, understand more deeply, and surround yourself with people who broaden your thinking. Knowledge alone will not remake the world, but it makes it harder for others to think in your place. Do not underestimate your mind.",
+      "history": "Tupac and Strictly Dope address education, history, solidarity, and resistance to social constraints. The track was recorded before his first official solo album, though its exact recording date is uncertain. Released later on Beginnings, it shows the young rapper's educational and protest-minded side.",
+      "details": "2Pac | c. 1989-1990 | Strictly Dope"
+    },
+    "12": {
+      "headline": "An ordinary day can become a lifelong memory.",
+      "fortune": "Life does not wait for something spectacular before it starts to mean something. A normal day with friends, a familiar street, a game, or an unexpected conversation can stay with you for years. If you are always waiting for 'later,' you may be missing today. Most memories are made without warning.",
+      "history": "The song depicts everyday youth experiences: time off school, hanging out, friends, and small street rivalries. In the Strictly Dope version, Tupac and Ray Tyson sound very different from his later angrier material. It belongs to the pre-debut period and was officially released years afterward.",
+      "details": "2Pac | c. 1989-1990 | Strictly Dope"
+    },
+    "13": {
+      "headline": "Not every powerful feeling excuses a choice.",
+      "fortune": "Sometimes you want something that could cost another person their trust. Your feelings may be real, but that does not automatically make every action right. Before you call it love, ask who could get hurt. Some attachments demand more honesty than courage.",
+      "history": "Tupac sings about falling for his best friend's girlfriend, torn between personal desire and loyalty. Ray Tyson also contributes to the romantic narrative. An early Strictly Dope recording released later on Beginnings, it shows the younger Tupac experimenting with emotional storytelling.",
+      "details": "2Pac | c. 1989-1990 | Strictly Dope"
+    },
+    "14": {
+      "headline": "A glamorous story can hide a much harder reality.",
+      "fortune": "The dazzling image around a relationship may conceal its reality. Perhaps you know someone only through gossip or the identity they project. Behind that image may be loneliness, need, or a struggle for power. Before judging or falling in love, hear the whole story. People are more complicated than the rumors about them.",
+      "history": "Tupac and Ray Tyson tell Minnie's story in a tone that shifts between humor and bitterness: unstable relationships, social climbing, poverty, and violence. Part of the early Strictly Dope recordings, it shows Tupac exploring complex characters long before he became famous.",
+      "details": "2Pac | c. 1989-1990 | Strictly Dope"
+    },
+    "15": {
+      "headline": "Sometimes the room has judged you before you speak.",
+      "fortune": "Sometimes people decide what you are capable of before you even enter a room. You do not need to answer every assumption with a long explanation. Do your work well, but do not let proving yourself turn into a permanent feud with everyone else. The strongest reply is not always the loudest.",
+      "history": "'Static' comes from Tupac's transition toward professional music and appears as Mix 1 and Mix 2 on the Beginnings compilation. Its tone is aggressive and competitive. Because the versions share a title and central theme, they count as one fortune here; exact recording dates are not fully established.",
+      "details": "2Pac | c. 1990-1991 | Two mixes of one track"
+    },
+    "16": {
+      "headline": "Success can reveal what people really want from you.",
+      "fortune": "People sometimes change their behavior the moment things start going your way. Someone who ignored you yesterday may suddenly act like your closest friend. You do not have to distrust everyone, but learn to tell affection for you from interest in your new position. Fame does not always change people; sometimes it reveals their motives.",
+      "history": "Released in 1991 by Digital Underground, this lively group song was among Tupac's first commercial appearances. In his verse, he jokes about how people treat him differently as his profile grows. The track also appeared in the film Nothing but Trouble. The recording is generally dated to late 1990.",
+      "details": "2Pac | Recorded 1990 | Released 1991 | Digital Underground"
+    },
     "17": {
       "headline": "Don't judge me before you know me",
       "fortune": "It's exhausting when people have already judged you before you speak. Your appearance, age, or past may matter more to some people than the truth. You don't have to limit yourself to the picture they've made of you. But don't let your anger at those judgments control your choices either. You are more than the label they give you.",
@@ -82,17 +178,131 @@
       "history": "Tupac's first solo single from 2Pacalypse Now addresses police pressure and restricted opportunities in poor neighborhoods. In an official 1991 interview, he explained that being 'trapped' meant restrictions beyond a physical prison. The track was released with Shock G's participation.",
       "details": "2Pac | 2Pacalypse Now | Released 1991"
     },
+    "19": {
+      "headline": "The road that looks powerful from afar may cost too much.",
+      "fortune": "From a distance, some paths look full of power and respect. Up close, they may offer only fear and consequences nobody mentions. Before copying someone else's major decision, look at where that road actually ends. Someone you admire is not automatically a good guide for your future.",
+      "history": "In 'Soulja's Story,' Tupac tells a dark narrative about violence, policing, prison, and a younger brother imitating an older brother involved in crime. In his 1991 album commentary, the younger brother tries to free the older one and loses his life. It is the third track on 2Pacalypse Now.",
+      "details": "2Pac | Recorded 1991 | Released November 12, 1991"
+    },
+    "20": {
+      "headline": "Anger can reveal what matters, but it should not run your life.",
+      "fortune": "After being treated unfairly again and again, polite words may start to feel pointless. Your anger can show what you care about. But if it makes every decision for you, it may take away the very thing you wanted: control over your own life. Anger is understandable; surrendering your future to it is another matter.",
+      "history": "The fourth track on 2Pacalypse Now protests racial discrimination and police harassment in blunt language. In 1991 press materials, Tupac described police threats against members of Digital Underground in San Francisco as one inspiration. The recording captures his outspoken political anger at the start of his solo career.",
+      "details": "2Pac | Recorded 1991 | Released November 12, 1991"
+    },
+    "21": {
+      "headline": "How long will people mistake your silence for consent?",
+      "fortune": "How long are people going to mistake your silence for agreement? Anger is natural when someone repeatedly crosses your boundaries. But the moment anger replaces choice, the thing hurting you may gain control of your life. You have every right to protest. Just do not let the protest destroy what you meant to protect.",
+      "history": "Through a tense narrative, Tupac addresses police violence and the anger of young Black Americans. In a 1991 interview, he called the track an outlet for his frustration with police behavior. It appeared on his debut album, where political rage sometimes mixes with violent imagery.",
+      "details": "2Pac | Recorded 1991 | Released November 12, 1991 | 2Pacalypse Now"
+    },
+    "22": {
+      "headline": "Some people would rather you never asked questions.",
+      "fortune": "Some people are more comfortable when you do not ask questions. Hearing only one side of history can make you repeat someone else's story without realizing it. Re-examine the things people call 'the way it has always been.' Learning cannot erase every pain, but it can stop someone else from deciding for you through ignorance.",
+      "history": "Tupac challenges the United States over racism and the erasure of Black history, presenting education as resistance. He mentions Malcolm X and Martin Luther King Jr. and explains his own interpretation of the acronym N.I.G.G.A. The song highlights the political, educational side of his debut album.",
+      "details": "2Pac | Recorded 1991 | Released November 12, 1991 | 2Pacalypse Now"
+    },
+    "23": {
+      "headline": "You cannot build everything with ready-made tools.",
+      "fortune": "Maybe you have been waiting for perfect circumstances: the right people, enough money, or a chance with no risks. Some abilities emerge only when you have to work without the tools you usually depend on. What looks like a shortage today might show you what you can really do.",
+      "history": "On 'Something Wicked,' Tupac focuses more on rap technique and performance energy. In 1991, he explained that he wanted to prove they could make beats and perform without relying on pre-existing samples. Unlike many political tracks on the album, this song stands out for its approach to music-making.",
+      "details": "2Pac | Recorded 1991 | Released November 12, 1991 | 2Pacalypse Now"
+    },
+    "24": {
+      "headline": "Revenge rarely settles an old debt.",
+      "fortune": "Revenge does not always pay off an old debt; it can create a new one. Someone may have betrayed you, and now you want them to feel exactly the same pain. Think about the end of that cycle: what will actually be repaired afterward? Some victories are only another name for the same old defeat.",
+      "history": "Tupac and Stretch play violent street characters in this track. The plot moves from robbery and pursuit to revenge, gunfire, and confrontation with police. Unlike some socially focused songs on the album, it depicts criminal violence directly. The narrator should not be equated with Tupac's actual life without evidence.",
+      "details": "2Pac feat. Stretch | Recorded 1991 | Released November 12, 1991 | 2Pacalypse Now"
+    },
+    "25": {
+      "headline": "Real friends are not only there for the good days.",
+      "fortune": "Real friends are not always found in your happiest moments. Life gets busy and old relationships can slip onto an endless 'later' list. Yet a simple call might mean much more to someone than the few minutes it costs you. As you grow, do not lose the people who were there before anybody knew your name.",
+      "history": "Tupac contrasts loyalty to longtime friends with fame and an increasingly busy schedule. In an interview about his debut, he said a show or movie should never make him forget real friends. One of the three singles associated with 2Pacalypse Now, the track shows a more affectionate side of him.",
+      "details": "2Pac | Recorded 1991 | Released November 12, 1991 | 2Pacalypse Now"
+    },
     "26": {
       "headline": "Behind every painful story, a hidden truth",
       "fortune": "Behind some mistakes is someone nobody came to help. Judging from a distance is easy; seeing the fear, poverty, and loneliness behind a decision is much harder. Today you may meet someone who needs to be heard more than they need advice. Before asking, 'Why did they do that?' ask, 'Who was there for them?'",
       "history": "'Brenda's Got a Baby' tells the story of a very young girl facing abuse, pregnancy, and poverty. Tupac said a disturbing news report about a teenage girl's life inspired the song. One of his earliest well-known examples of social storytelling, it addresses vulnerable children and the failure of support networks.",
       "details": "2Pac | 2Pacalypse Now | Released 1991"
     },
+    "27": {
+      "headline": "You are bigger than the role others expect you to play.",
+      "fortune": "Just because everyone expects a certain version of you does not mean you have to stay that person. You may be known as the funny one in one group and the serious one in another. If you keep performing those roles against your feelings, you may lose yourself. Your character is bigger than other people's labels.",
+      "history": "Tupac explained that 'The Lunatic' had been one of his underground rap nicknames, referring to quick shifts in behavior. With Stretch, he builds an unpredictable, exaggerated persona. The song is best read as a performance of an artistic identity, not a psychological diagnosis.",
+      "details": "2Pac feat. Stretch | Recorded 1991 | Released November 12, 1991 | 2Pacalypse Now"
+    },
+    "28": {
+      "headline": "You do not have to sound like everyone else to belong.",
+      "fortune": "You do not need to imitate everyone else's voice just to be accepted. Maybe you have something to say that could cost you approval. Before going silent, ask what scares you more: being wrong or upsetting others. Disagreeing with the crowd does not guarantee you are right, but agreement does not prove it either. Dare to think.",
+      "history": "Tupac treated the track as a statement of his rebellious artistic identity. In a 1991 interview, he described himself as someone who often protested more loudly than others. The lyrics criticize the media, censorship, and police violence. Ray Luv and Shock G are credited collaborators.",
+      "details": "2Pac feat. Ray Luv & Shock G | Recorded 1991 | Released November 12, 1991 | 2Pacalypse Now"
+    },
+    "29": {
+      "headline": "Someone can be absent even while standing beside you.",
+      "fortune": "Some absences hurt even when the person is physically present. Responsibility is more than having your name attached to someone's life: it means paying attention when they truly need you. Someone close may be asking for nothing more than your presence. Half-hearted care is not always harmless; its effects can last for years.",
+      "history": "Closing his debut album, Tupac joins several harsh stories about parental neglect, addiction, abuse, and abandoned children. He described the track as an answer to songs that glamorize dangerous lifestyles. Its main concern is the cost of adult choices to children who never had a say in them.",
+      "details": "2Pac feat. Angelique & Poppi | Recorded 1991 | Released November 12, 1991 | 2Pacalypse Now"
+    },
     "30": {
       "headline": "Your voice deserves to be heard too",
       "fortune": "Some things seem to go unheard when you say them alone. Maybe you've been waiting for someone else to speak first and name the problem everyone can see. But one voice can break other people's silence. Before bringing people together, make sure you know exactly what change you want. A shout cannot take the place of a direction.",
       "history": "The first single from Tupac's second album. In interview notes from the time, he described it as a call for uprising and unity, responding to continuing discrimination after the 1992 Los Angeles riots. Compared with his first album, Tupac faced greater fame and media pressure, and his political voice sounded sharper.",
       "details": "2Pac | Strictly 4 My N.I.G.G.A.Z... | Released 1993"
+    },
+    "31": {
+      "headline": "Sometimes people judge you before you get to speak.",
+      "fortune": "Sometimes a verdict is passed before you say a word. You may be tempted to respond, especially when the person judging you holds power. But not every reply deserves all your energy. Decide whether you are trying to clarify the truth or simply prove you are nobody's inferior. Those are not always the same goal.",
+      "history": "This interlude responds to criticism of Tupac and rap music by Dan Quayle, then U.S. vice president. Tupac explained in an official interview that he placed excerpts of Quayle's statements beside responses drawn from his own interviews. It captures the young artist's conflict with political and media power.",
+      "details": "2Pac | Recorded 1992 | Released February 16, 1993 | Second-album interlude"
+    },
+    "32": {
+      "headline": "When you point a finger, where are the others pointing?",
+      "fortune": "When you point a finger at someone else, where are the others pointing? You may be condemning someone for a fault you also carry in a smaller form. That does not excuse their mistakes. It reminds you that judging is easy, while facing your own role in the story takes much more courage.",
+      "history": "In discussion of his second album, Tupac described 'Point the Finga' as a response to people who portrayed him as evil while ignoring their own wrongdoing. He turns their accusations back on the critics with sharp language. The track reflects the strain of fame and media scrutiny in 1992.",
+      "details": "2Pac | Recorded 1992 | Released February 16, 1993 | Strictly 4 My N.I.G.G.A.Z..."
+    },
+    "33": {
+      "headline": "Not every cause is worth losing your life over.",
+      "fortune": "Do not fight for everything; some things are not worth losing yourself over. Pride, jealousy, or a stranger's words can push a person toward an irreversible decision. When you decide to stand your ground, ask whether the cause gives your life meaning or just briefly soothes your anger. The difference could change everything.",
+      "history": "In this interlude, Tupac recalls the death of Latasha Harlins and a child killed in a shooting near one of his performances. In his commentary, he said freedom is worth fighting for, unlike jealousy or pointless violence. Released in 1993, the piece criticizes needless deaths despite its provocative title.",
+      "details": "2Pac | Recorded 1992 | Released February 16, 1993 | Second-album interlude"
+    },
+    "34": {
+      "headline": "When someone wants to silence you, ask what they fear.",
+      "fortune": "If someone wants to shut you up, ask which words frighten them. Their harsh reaction may mean you have touched a sensitive point. But freedom to speak does not absolve you of thinking about your words' effects. An independent voice is not merely loud; it takes responsibility for what it says.",
+      "history": "Tupac joins Ice Cube and Ice-T to oppose censorship of rap music. He described the song as the three artists' final statement on attempts to restrict their expression. The collaboration links him to established protest-rap figures. It is track five on the original 16-track album and should not be omitted.",
+      "details": "2Pac feat. Ice Cube & Ice-T | Recorded 1992 | Released February 16, 1993 | Strictly 4 My N.I.G.G.A.Z..."
+    },
+    "35": {
+      "headline": "Fighting for justice and hurting people are different things.",
+      "fortune": "When you feel there is no way to be heard, retaliation can look appealing. But revenge seldom solves the problem; it usually draws more people into it. Maybe it is time to break the cycle rather than answer with your opponent's methods. Demanding justice is not the same as causing harm.",
+      "history": "'Souljah's Revenge' conceptually follows 'Soulja's Story' from Tupac's debut. He presented it as a response to efforts to ban his music. The lyrics describe clashes with police and make harsh accusations against power structures. The song's violent narrative should be distinguished from verified real-world statements or events.",
+      "details": "2Pac | Recorded 1992 | Released February 16, 1993 | Strictly 4 My N.I.G.G.A.Z..."
+    },
+    "36": {
+      "headline": "Not everything is black and white.",
+      "fortune": "Not everything is black and white, even when you feel absolutely certain you are right. The person standing against you may not have told the whole story, or you may see only a fragment. Look once more from another angle before passing a final judgment. Complexity does not mean your boundaries no longer matter.",
+      "history": "With Deadly Threat, Tupac uses an aggressive, competitive tone to discuss reputation, fame, and street codes. In his commentary, he suggested that not every issue can be understood in stark black-and-white terms. The track blends rap bravado, threats, and distrust in relationships.",
+      "details": "2Pac feat. Deadly Threat | Recorded 1992 | Released February 16, 1993 | Strictly 4 My N.I.G.G.A.Z..."
+    },
+    "37": {
+      "headline": "Feeling tired does not mean you have failed.",
+      "fortune": "Being exhausted is not always the same as giving up. Some days, reaching the evening is a small victory. You do not owe everyone a full explanation of your struggles, but you do not have to pretend everything is fine either. If pressure has lasted a long time, asking for help is not weakness. Nobody should have to endure everything alone.",
+      "history": "Tupac said he wrote this song about everyday struggles so listeners could recognize themselves in it. In his circle, 'I'm struggling' had become a familiar answer to 'How are you?' Featuring Live Squad, it portrays difficult lives without promising easy success, and belongs to his 1992 recording period.",
+      "details": "2Pac feat. Live Squad | Recorded 1992 | Released February 16, 1993 | Strictly 4 My N.I.G.G.A.Z..."
+    },
+    "38": {
+      "headline": "Some comebacks need no explanation.",
+      "fortune": "Some comebacks speak for themselves. Maybe you failed once, stepped away, or heard people declare you finished. You do not have to spend your life convincing them otherwise. If something still matters to you, return and continue, not to punish their judgment but because you still have something to say. A comeback only matters if you move forward.",
+      "history": "'Guess Who's Back' is an energetic declaration of Tupac's return. In brief comments from 1992, he said others wanted him to withdraw, but he had no intention of leaving. The song emerged after his controversial debut and as his acting in Juice was bringing him wider recognition.",
+      "details": "2Pac | Recorded 1992 | Released February 16, 1993 | Strictly 4 My N.I.G.G.A.Z..."
+    },
+    "39": {
+      "headline": "Success does not require abandoning your roots.",
+      "fortune": "When you succeed, you do not have to leave your past at the door. You may enter a room where everybody expects you to act like them. Growth means having new choices, not erasing everything that made you. Just do not confuse loyalty to your roots with an obligation to repeat old mistakes. You can move forward and remain yourself.",
+      "history": "Tupac mentions Oakland, his path from the streets to movies, and other contemporary artists. In album notes, he said he represented young Black people and his beliefs. 'Representin’ 93' reflects a period when his rising fame intersected with an identity deeply rooted in his community.",
+      "details": "2Pac | Recorded 1992 | Released February 16, 1993 | Strictly 4 My N.I.G.G.A.Z..."
     },
     "40": {
       "headline": "Being strong doesn't mean being alone",
