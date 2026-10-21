@@ -12,7 +12,6 @@ const DEFAULT_TEXT = {
   noFortune: 'فعلاً فالی برای نمایش وجود ندارد.',
   imageError: 'ساخت تصویر انجام نشد.',
   saved: 'فال ذخیره شد.', unsaved: 'فال از ذخیره‌ها حذف شد.',
-  previewNote: 'این برداشت ادبی مستقل است. اطلاعات تاریخی در حال بازبینی تکمیلی هستند.'
 };
 let messages = DEFAULT_TEXT;
 let eligibleFortunes = [];
@@ -250,9 +249,6 @@ function fillResult(item) {
   $('fortuneHeadline').textContent = item.headline || '';
   $('fortuneText').textContent = item.fortune;
   $('historyText').textContent = item.history || '';
-  // The public pool excludes title-only and alternate-version drafts.
-  // Additional context remains available without distracting from the fortune.
-  $('researchCaution').hidden = true;
   setSources(item.sources);
   const youtube = item.music?.youtube_music_search;
   const spotify = item.music?.spotify_search;
