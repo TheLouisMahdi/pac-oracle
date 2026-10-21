@@ -1,0 +1,205 @@
+[
+  {
+    "id": "P01",
+    "status": "skipped-rights",
+    "url": "https://grimmgallery.com/press/332-no-one-photographed-the-90s-like-dana-lixenberg/"
+  },
+  {
+    "id": "P02",
+    "status": "skipped-rights",
+    "url": "https://www.newyorker.com/magazine/1997/07/07/the-takedown-of-tupac"
+  },
+  {
+    "id": "P03",
+    "status": "skipped-rights",
+    "url": "https://www.timeout.com/los-angeles/things-to-do/tupac-shakur-wake-me-when-im-free"
+  },
+  {
+    "id": "P04",
+    "status": "skipped-rights",
+    "url": "https://www.latercera.com/culto/noticia/como-el-asesinato-de-tupac-shakur-parece-encontrar-la-verdad-y-de-que-modo-involucra-a-sean-diddy-combs/"
+  },
+  {
+    "id": "P05",
+    "status": "skipped-rights",
+    "url": "https://www.theguardian.com/books/2021/jun/29/changes-an-oral-history-of-tupac-shakur-by-sheldon-pearce-review"
+  },
+  {
+    "id": "P06",
+    "status": "skipped-rights",
+    "url": "https://www.hennessy.com/en-int/stories/1995-rap-star-becoming-icon"
+  },
+  {
+    "id": "A01",
+    "status": "existing",
+    "src": "assets/images/archive/a01.jpg"
+  },
+  {
+    "id": "A02",
+    "status": "existing",
+    "src": "assets/images/archive/a02.jpg"
+  },
+  {
+    "id": "A03",
+    "status": "existing",
+    "src": "assets/images/archive/a03.jpg"
+  },
+  {
+    "id": "A04",
+    "status": "existing",
+    "src": "assets/images/archive/a04.jpg"
+  },
+  {
+    "id": "A05",
+    "status": "existing",
+    "src": "assets/images/archive/a05.jpg"
+  },
+  {
+    "id": "A06",
+    "status": "existing",
+    "src": "assets/images/archive/a06.jpg"
+  },
+  {
+    "id": "A07",
+    "status": "existing",
+    "src": "assets/images/archive/a07.jpg"
+  },
+  {
+    "id": "A08",
+    "status": "downloaded",
+    "src": "assets/images/archive/a08.jpg"
+  },
+  {
+    "id": "T01",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/a-close-up-of-a-black-sheet-of-paper-pCjry-qduso",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T02",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/a-piece-of-black-paper-with-a-black-background-LHiYkrRC77M",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T03",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/white-paper-on-white-textile-GmNTYBH9DUE",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T04",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/light-grey-paper-texture-OIKBzKrTdxA",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T05",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/creased-brown-kraft-paper-texture-Y3vPEuNlf7w",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T06",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/a-piece-of-paper-with-white-paint-on-it-t1Z98o8sCW8",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T07",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/dark-red-textured-background-with-small-bubbles-__8nGLstYQE",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T08",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/red-textile-with-black-shadow-wFgEAQck6mw",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T09",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/a-textured-red-wall-with-rough-surfaces-JqaOCn5iZ0w",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T10",
+    "status": "manual-or-license-required",
+    "url": "https://www.pexels.com/photo/white-and-gray-concrete-wall-10282622/",
+    "reason": "Pexels-free"
+  },
+  {
+    "id": "T11",
+    "status": "manual-or-license-required",
+    "url": "https://www.pexels.com/photo/white-dust-particles-on-black-background-9665193/",
+    "reason": "Pexels-free"
+  },
+  {
+    "id": "T12",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/black-vinyl-record-on-white-background-aZVuQWEtX5Y",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "T13",
+    "status": "manual-or-license-required",
+    "url": "https://unsplash.com/photos/black-and-white-vinyl-record-O1MOqcicWhA",
+    "reason": "Unsplash-free"
+  },
+  {
+    "id": "R01",
+    "status": "skipped-rights",
+    "url": "https://www.behance.net/gallery/151795321/HIPHOP-DX-News-website-redesign"
+  },
+  {
+    "id": "R02",
+    "status": "skipped-rights",
+    "url": "https://www.behance.net/gallery/158772369/GHETTORU-News-website-redesign"
+  },
+  {
+    "id": "R03",
+    "status": "skipped-rights",
+    "url": "https://in.pinterest.com/pin/1038290889091646806/"
+  },
+  {
+    "id": "W01",
+    "status": "downloaded",
+    "src": "assets/images/textures/w01.jpg"
+  },
+  {
+    "id": "W02",
+    "status": "downloaded",
+    "src": "assets/images/textures/w02.jpg"
+  },
+  {
+    "id": "W03",
+    "status": "downloaded",
+    "src": "assets/images/textures/w03.jpg"
+  },
+  {
+    "id": "W04",
+    "status": "downloaded",
+    "src": "assets/images/textures/w04.jpg"
+  },
+  {
+    "id": "W05",
+    "status": "existing",
+    "src": "assets/images/textures/w05.png"
+  },
+  {
+    "id": "W06",
+    "status": "downloaded",
+    "src": "assets/images/textures/w06.jpg"
+  },
+  {
+    "id": "W07",
+    "status": "downloaded",
+    "src": "assets/images/textures/w07.jpg"
+  },
+  {
+    "id": "W08",
+    "status": "existing",
+    "src": "assets/images/music/w08.png"
+  }
+]
