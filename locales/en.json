@@ -310,6 +310,18 @@
       "history": "Tupac wrote this song for women who had connected with the story of 'Brenda's Got a Baby.' He sings about respect for Black women and mothers, and the pressure of social inequality. Released on his second album alongside its angrier tracks, it is one of his clearest expressions of social empathy.",
       "details": "2Pac | Strictly 4 My N.I.G.G.A.Z... | Released 1993"
     },
+    "41": {
+      "headline": "Not everyone has to understand you.",
+      "fortune": "Not everyone will understand you, and not everyone is your audience. You may be spending energy trying to satisfy people who will not even listen. Notice who has actually stood beside you and who merely watches. Value genuine supporters, but do not confuse loyalty with ignoring mistakes. Popularity is no substitute for mutual respect.",
+      "history": "In his official album commentary, Tupac described this song as a gift to his fans regardless of whether they were Black, white, or Puerto Rican. His second album came out in 1993 amid political criticism and media controversy. The track also shows his desire for a two-way bond with listeners.",
+      "details": "2Pac | Recorded 1992 | Released February 16, 1993 | Title-track album"
+    },
+    "42": {
+      "headline": "What looks like a bad choice from outside may feel like the only one.",
+      "fortune": "Some decisions look wrong from the outside but feel like the only possible option from within. Maybe someone you know is always on the defensive. Before judging, consider how many dead ends they have faced. That does not excuse harm; it means looking for its roots. People who feel trapped every day struggle to imagine tomorrow.",
+      "history": "Tupac explained that for many young people in poor neighborhoods, the streets feel like a prison that leaves little hope for the future. The title compares street life to death row. The song connects violence to deprivation and desperation rather than presenting it simply as an individual choice.",
+      "details": "2Pac | Recorded 1992 | Released February 16, 1993 | Strictly 4 My N.I.G.G.A.Z..."
+    },
     "43": {
       "headline": "Not every kind of attention is love",
       "fortune": "Being attractive to others doesn't always mean knowing how to be in a relationship. Maybe you've confused freedom with avoiding every commitment, or others expect something you don't want to accept. Being honest about what you want is better than making a promise you don't intend to keep. You have the right to enjoy yourself; you don't have the right to play with people.",
@@ -322,11 +334,83 @@
       "history": "Tupac connected this song to his own father and to fathers who leave their families and may later return. In commentary published with the album, he spoke about his unfamiliarity with a father's role. The song shows anger and deprivation from a child's perspective, while also bringing in the voice of the other side of the relationship.",
       "details": "2Pac | Strictly 4 My N.I.G.G.A.Z... | Released 1993"
     },
+    "45": {
+      "headline": "A strong team does not need everyone to sound alike.",
+      "fortune": "You do not always have to be the best in the room; sometimes you need to find the right people to work with. If every moment must revolve around you, you may miss the chance to learn. Real collaboration happens when everyone contributes their own strengths instead of erasing someone else's. A group's power comes from difference.",
+      "history": "This group performance displays several aggressive, competitive rap styles. Tupac said its title came from the Chinese martial-arts film The Five Deadly Venoms; he imagined the voices as distinct forces working together. Collaboration with Treach, Apache, and Live Squad places him within the era's wider hip-hop network.",
+      "details": "2Pac feat. Treach, Apache & Live Squad | Recorded 1992 | Released February 16, 1993"
+    },
+    "46": {
+      "headline": "Do not let a role take ownership of your life.",
+      "fortune": "When you build your entire identity around one role, leaving it becomes difficult. Maybe you have spent years trying to look tough, wealthy, or untouchable. But if nobody expected that image tomorrow, what would remain of you? You need not deny your past. Just make sure the part you play has not become your master.",
+      "history": "Opening Thug Life: Volume 1, Tupac and his group rap about money, street life, and death they expect to face. The repeated request to be buried 'a G' stresses a hard-edged identity shaped by mortality. Released in 1994, the album accompanied Tupac's solo career as he built his own group.",
+      "details": "Thug Life feat. 2Pac & Natasha Walker | Recorded before 1994 | Released September 26, 1994"
+    },
+    "47": {
+      "headline": "Not every misunderstanding deserves a fight.",
+      "fortune": "Not every misunderstanding is worth fighting over. Someone may have read your intentions wrongly, and now you want to prove yourself more forcefully. Before reacting, ask whether this is a misunderstanding or merely an excuse to argue. Sometimes one clear explanation is enough; sometimes distance is wiser. You do not have to risk yourself over every false judgment.",
+      "history": "The second track on Thug Life's album is credited in available transcriptions to Mopreme, Macadoshis, and Rated R, without a clearly identified Tupac verse. Its aggressive street message warns anyone who underestimates the performers' standing. This chapter covers the group's album rather than presenting it as a Tupac solo performance.",
+      "details": "Thug Life | No clearly identified 2Pac verse | Released September 26, 1994"
+    },
+    "48": {
+      "headline": "Some cycles will not end on their own.",
+      "fortune": "Some cycles do not stop by themselves. If you face the same people, arguments, and dangers every day, you may have started calling it simply 'life.' Surviving matters, but survival cannot always be the whole goal. Ask what small choice could break one link in the chain. Continuing is not always the same as moving forward.",
+      "history": "An energetic group track about dangerous street life, rivalry, and chasing money, its title emphasizes the endless repetition of those experiences. Released on Thug Life in 1994, it was part of Tupac's effort to bring the voices of rappers close to him into a collective portrait of street culture.",
+      "details": "Thug Life | Recording date uncertain | Released September 26, 1994"
+    },
+    "49": {
+      "headline": "People leave, but their traces stay.",
+      "fortune": "Some people disappear from your life, yet their presence remains in familiar songs, streets, and memories. You need not deny grief to prove you are strong. Just make sure yesterday does not take up all of today. Keeping someone's memory alive is not the same as putting your own life on hold.",
+      "history": "Tupac honors friends who died or were imprisoned, remembering youth, companionship, and lost moments. Pouring a little liquor for absent friends is the central image. The song appeared on the 1994 Above the Rim soundtrack before Thug Life's album; Tupac also acted in that film.",
+      "details": "2Pac / Thug Life | Recorded before March 1994 | Soundtrack and album releases in 1994"
+    },
+    "50": {
+      "headline": "Being true to yourself includes being willing to change.",
+      "fortune": "'Be yourself' sounds easy until it comes with a cost. Maybe you hide something to fit in, or cling to an old habit in the name of authenticity. Ask what you are really loyal to: your values or a past version of yourself? Staying genuine sometimes means having the courage to change.",
+      "history": "A lively track on Thug Life, 'Stay True' finds Tupac and his collaborators discussing friendship, West Coast partying, ambition, and loyalty to their way of life. It is lighter than some of the album's mournful songs, though street conflict and violence still appear in its lyrics.",
+      "details": "Thug Life feat. 2Pac | Recording date uncertain | Released September 26, 1994"
+    },
     "51": {
       "headline": "Some losses stay with us for a long time",
       "fortune": "Missing someone doesn't always show itself in tears. After someone was gone, maybe you worked, joked, or even became angry, then wondered why you weren't grieving like everyone else. There is no single shape for loss. Just don't let the anger left behind by grief hurt the people still living. You don't have to forget in order to carry on.",
       "history": "Made in memory of the group's late friend Kato. Tupac, Big Syke, and other Thug Life members, joined by Nate Dogg, speak of grief, memories of friendship, and the desire for revenge. The title asks how long sorrow lasts, while also expressing a bitter worry about who will remember them after their own deaths.",
       "details": "2Pac | Thug Life: Volume 1 | Released 1994"
+    },
+    "52": {
+      "headline": "Pressure is most dangerous when it starts to feel normal.",
+      "fortune": "Pressure becomes dangerous when you slowly begin to consider it normal. Perhaps you are so prepared for the worst that even rest feels like another shift on guard. That state may have helped you survive, but it is no way to live forever. Look for somewhere to ease the burden or ask for help. Constant readiness for battle is not peace.",
+      "history": "In this dark track, Tupac and Stretch describe life under threat, distrust, and conflict with police. Repeated images of weapons and danger create an atmosphere of psychological insecurity. Their collaboration recalls a period when Stretch was among Tupac's close musical partners.",
+      "details": "Thug Life feat. 2Pac & Stretch | Recording date uncertain | Released September 26, 1994"
+    },
+    "53": {
+      "headline": "Not every kind of fame is worth keeping.",
+      "fortune": "Not every reputation is worth the same. Maybe people know you for something you no longer want to represent. It is hard to leave an old identity behind, especially when it cost you so much to earn. Yet you do not have to remain the person you once became for other people's approval. A reputation that imprisons you is no prize.",
+      "history": "Performed by Thug Life members including Mopreme, Big Syke, and Rated R, the album version has no clearly documented Tupac verse. It deals with building a name and gaining respect on the streets, along with the price of that fame. It should not be confused with a different Tupac solo song sharing the title.",
+      "details": "Thug Life | No clearly identified 2Pac verse | Released September 26, 1994"
+    },
+    "54": {
+      "headline": "Where you started is not your final sentence.",
+      "fortune": "Where you come from matters, but it is not the final verdict on your life. You may have inherited habits and fears you never chose. They have been with you since childhood and now feel natural. Recognizing them is difficult; changing them takes time. But you can decide today which patterns to repeat. Your past explains your position, not your destiny.",
+      "history": "Tupac and Thug Life trace a path from childhood to adulthood through poverty, violence, insecurity, and street codes. Each rapper brings a perspective on shared generational experience. More than one person's story, it explores how an environment restricts choices. It became one of the group's better-known singles.",
+      "details": "Thug Life feat. 2Pac | Recording date uncertain | Released September 26, 1994"
+    },
+    "55": {
+      "headline": "Money may look like freedom until you count the cost.",
+      "fortune": "After years of scarcity, money can seem like the only escape. You may be considering risks you once rejected because a faster reward is within reach. Before moving, count more than the potential profit; think about what you could lose. Success that burns every bridge back does not always set you free.",
+      "history": "Closing Thug Life: Volume 1, Tupac raps about poor childhood, drug dealing, evading police, and dreams of wealth. 'Ballin'' here carries ideas of money, conspicuous success, and street risk. This is not a simple lesson in getting rich: danger and violence are central to the narrative.",
+      "details": "2Pac / Thug Life | Recording date uncertain | Released September 26, 1994"
+    },
+    "56": {
+      "headline": "Everyone may be telling your story except you.",
+      "fortune": "Sometimes everyone talks about you except you. Your life story can get lost among rumors, assumptions, and other people's judgments. You cannot control every voice, but you can choose which ones to let into your head. Before seeing yourself through strangers' eyes, revisit your own account. The headlines never tell the whole truth about a person.",
+      "history": "The opening of Me Against the World is not an ordinary song; it assembles news reports about Tupac's shooting in New York and his legal cases. Released March 14, 1995 while he was imprisoned, the documentary-like introduction draws listeners directly into an atmosphere of media pressure and danger.",
+      "details": "2Pac | News-report audio interlude | Released March 14, 1995"
+    },
+    "57": {
+      "headline": "When you expect a blow, even calm feels unsafe.",
+      "fortune": "If you are constantly bracing for an attack, even a quiet night may not feel peaceful. The past can train you to see danger several steps ahead. Caution might protect you, but a life ruled entirely by fear grows smaller every day. You do not have to deny the risks. Just do not let fear live your life in your place.",
+      "history": "On the second track of his third album, Tupac uses dense wordplay and violent imagery to contemplate sudden death, enemies, and distrust. The album followed his experience of the 1994 shooting and legal troubles. Behind the confrontational tone lies an ongoing expectation of danger and death.",
+      "details": "2Pac | Recording date uncertain | Released March 14, 1995"
     },
     "58": {
       "headline": "When the world is against you, don't lose yourself",
@@ -340,11 +424,47 @@
       "history": "In 'So Many Tears,' Tupac sings about friends' deaths, childhood memories, fear, guilt, and a longing for peace. He repeatedly remembers Kato and moves between wanting to change and feeling trapped. Released on the 1995 album and later as a single, the track is far more vulnerable than his image as a fearless fighter.",
       "details": "2Pac | Me Against the World | Released 1995"
     },
+    "60": {
+      "headline": "Wanting something does not make it the right choice.",
+      "fortune": "Desire alone is not a good reason to act. You may be caught between a moment's excitement and the future you want. Do not blame yourself simply for feeling tempted; what matters is choosing with awareness of the consequences. Other people are not just characters in our fun. Honesty begins with the difficult 'no.'",
+      "history": "On 'Temptations,' Tupac explores sexual attraction, loneliness, fleeting relationships, and the challenge of faithfulness. He moves between wanting something sincere and imagining himself in an uncommitted lifestyle. A single from Me Against the World, it displays the contradictions in his treatment of romance.",
+      "details": "2Pac | Recording date uncertain | Album released March 14, 1995"
+    },
+    "61": {
+      "headline": "Growing up too fast can steal your youth.",
+      "fortune": "Rushing to grow up can cost you the chance to live your youth. Maybe you are imitating people you fear just to be taken seriously. You do not need to enter a dangerous game to prove courage. The chance to make mistakes and learn safely is valuable. Do not trade your future for a pose.",
+      "history": "Tupac dedicates the song to Robert 'Yummy' Sandifer and teenagers eager to become gangsters. He depicts children forced to mature by poverty and violence, but ultimately urges them to put down weapons and take school and work seriously. It appeared on his 1995 album.",
+      "details": "2Pac | Recorded around 1993-1994 | Released March 14, 1995 | Me Against the World"
+    },
+    "62": {
+      "headline": "The game that pays you may also steal your peace.",
+      "fortune": "A game that makes you money can take away your peace of mind. When success brings jealousy, competition, and fear, you may forget why you started. Perhaps you have never been further ahead, yet you sleep less than ever. Before your next move, ask: am I winning, or have I forgotten how to leave the game?",
+      "history": "With Richie Rich, Lady Levi, and Eboni Foster, Tupac describes the pressure of earning, street danger, jealousy, and enemies. Being 'heavy in the game' suggests both status and its costs. The track appeared on Me Against the World, released in 1995 while Tupac was incarcerated.",
+      "details": "2Pac | Recorded around 1993-1994 | Released March 14, 1995 | Me Against the World"
+    },
+    "63": {
+      "headline": "A smile does not always mean someone is okay.",
+      "fortune": "Someone who laughs may still be hurting. Maybe you have carried so much pressure that you cannot decide where to start telling the story. Strength is not the problem; believing pain is the only language you can live in is. If everything feels dark, reaching out is not defeat. Not every battle must be fought alone.",
+      "history": "The song confronts emotional exhaustion, substance use, constant violence, and the closeness of death. Tupac moves between prayer and expressions of helplessness. It shows that his third album was not only about projecting strength; it also made room for vulnerability. Released in 1995.",
+      "details": "2Pac | Recorded around 1993-1994 | Released March 14, 1995 | Me Against the World"
+    },
     "64": {
       "headline": "Some kinds of love take time to understand",
       "fortune": "Maybe the person you've complained about most has fought hardest for you. Some acts of love become visible only when it's late, or when you've tasted hardship yourself. You don't have to make the past look perfect; you can recognize both the wounds and the effort. Gratitude means seeing a person's truth more fully.",
       "history": "Tupac dedicated this song to his mother, Afeni Shakur, openly addressing poverty, teenage disagreements, his father's absence, and his mother's addiction. Despite those painful experiences, he honors her sacrifices. Released as a single in 1995 before his third album, 'Dear Mama' is one of his most important personal works.",
       "details": "2Pac | Me Against the World | Released 1995"
+    },
+    "65": {
+      "headline": "Some days, even small things take enormous effort.",
+      "fortune": "Some days even the simplest tasks feel heavy. Everything may look normal to other people while you wrestle with anxiety, painful memories, and bad news. Empty slogans cannot erase real pressure. Today, make one thing lighter: a phone call, a decision, or a necessary 'no.' The difficulty you feel is not imaginary.",
+      "history": "Tupac describes ordinary days under the shadow of prison, dead friends, policing, and street life. The title points to pressure that makes even normal moments difficult. Its comparatively relaxed beat accompanies a troubled narrative on Me Against the World, released in March 1995.",
+      "details": "2Pac | Recorded around 1993-1994 | Released March 14, 1995 | Me Against the World"
+    },
+    "66": {
+      "headline": "Sometimes staying is another name for fear.",
+      "fortune": "Sometimes 'staying' is another word for being afraid. If a relationship constantly makes you feel smaller or unsafe, do not judge it only by its good memories. Someone who loves you should not hold your freedom hostage. You also cannot rescue another person without their wishes and safety in mind. Love should open doors, not lock them.",
+      "history": "The song stages a conversation between Tupac and a woman trapped in an abusive relationship. He offers escape and a new beginning, while the narrative shifts between concern for her and the narrator's personal desire. It is an emotional story from his 1995 album, not a verified account of a specific real relationship.",
+      "details": "2Pac | Recorded around 1993-1994 | Released March 14, 1995 | Me Against the World"
     },
     "67": {
       "headline": "The past still has something to say",
@@ -352,11 +472,47 @@
       "history": "In 'Old School,' Tupac fondly remembers pioneering hip-hop artists, DJs, and the atmosphere in which rap culture took shape. Although he had become a star of a new generation, he acknowledges his debt to earlier ones. The song appears on his 1995 album and shows his appreciation of history and those who came before him.",
       "details": "2Pac | Me Against the World | Released 1995"
     },
+    "68": {
+      "headline": "When everyone looks like an enemy, help looks dangerous too.",
+      "fortune": "When everyone seems to be against you, even a helping hand can look like a threat. Maybe you have faced so much unfairness and judgment that you want to turn your back on the whole world. Your exhaustion is real, but one bad person or experience does not represent everyone. Do not destroy every possible bridge while defending yourself.",
+      "history": "Tupac directs his anger toward public judgment, the media, the justice system, and everyday pressure. His harsh language reflects the feeling of being surrounded, rather than setting out a clear political program. The track appeared on Me Against the World, an album whose title echoes that sense of confrontation.",
+      "details": "2Pac | Recorded around 1993-1994 | Released March 14, 1995 | Me Against the World"
+    },
+    "69": {
+      "headline": "Expecting disaster can keep you from living.",
+      "fortune": "If you are always waiting for disaster, life leaves less room for living. A painful event may have taught you to hear danger in every sudden sound or change. Caution matters, but fear should not own every hour. Let today exist on its own terms. Preparing for the worst is not the same as living inside it.",
+      "history": "Tupac describes fear of being killed, distrust, and childhood memories of a violent environment. Paranoid language and death imagery mingle with audio sampled from a gangster film. Released in 1995, the song is an example of his preoccupation with mortality before his final career period.",
+      "details": "2Pac | Recorded around 1993-1994 | Released March 14, 1995 | Me Against the World"
+    },
+    "70": {
+      "headline": "A label does not have to become your fate.",
+      "fortune": "Sometimes a name people give you slowly becomes a role you start to play. When everybody expects rebellion, you may believe rebellion is your only option. But you can still make new choices about who you want to be. Behind every name and group is a person responsible for their decisions. Labels cannot write your destiny.",
+      "history": "The closing track of Me Against the World, featuring Tupac's associates, frames an outlaw identity in opposition to police and social authority. The term 'Outlaw' would later be associated with the group Outlawz. Its lyrics include explicit threats and violence, best understood as a depiction of a street identity rather than unqualified praise.",
+      "details": "2Pac | Recorded around 1993-1994 | Released March 14, 1995 | Me Against the World"
+    },
     "71": {
       "headline": "Succeed for yourself, not for revenge",
       "fortune": "Sometimes you want to succeed simply because you never want anyone to humiliate you again. Anger can be a powerful engine, but if you give it the steering wheel too, it may take you to the wrong destination. Today, ask yourself whether you're fighting for your dream or answering the past. Victory belongs to you when you've chosen it yourself.",
       "history": "The aggressive opening track of All Eyez on Me announces Tupac's return after prison. He speaks of ambition, threats against enemies, police, and wealth. Released in February 1996 after he joined Death Row, the album puts the image of the street fighter at the center of his new identity through this song.",
       "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "72": {
+      "headline": "If the same relationship keeps repeating, look at the pattern.",
+      "fortune": "When the same kind of relationship follows you everywhere, it may be time to examine your own patterns. Blaming 'everyone' is easier than asking what keeps drawing you toward the same choices. Tired of the repetition? This time, consider your part in it. Sometimes the faces change but the story stays the same.",
+      "history": "With Snoop Dogg and others, Tupac delivers a playful yet misogynistic song about shallow relationships, fame, and women portrayed as opportunists. From All Eyez on Me (1996), its depiction of women is exaggerated and degrading and should not be treated as a fair description of relationships in general.",
+      "details": "2Pac | Recorded mainly late 1995 | Released February 13, 1996 | All Eyez on Me"
+    },
+    "73": {
+      "headline": "Strong attraction does not guarantee a healthy connection.",
+      "fortune": "Not every intense attraction becomes a good relationship. Someone may fascinate you so much that you overlook signs of trouble. Before jealousy or suspicion complicates everything, clarify your boundaries. You should not condemn someone in advance, but neither should you move forward blindly. Excitement cannot replace knowing a person.",
+      "history": "On this song, Tupac and Nate Dogg rap about seduction, unstable relationships, and sexual distrust. The lyrics use degrading words for women and take a cynical view of romance. Released on All Eyez on Me in February 1996, it represents the album's hedonistic, suspicious side.",
+      "details": "2Pac | Recorded mainly late 1995 | Released February 13, 1996 | All Eyez on Me"
+    },
+    "74": {
+      "headline": "A real decision includes accepting its cost.",
+      "fortune": "A big decision becomes real when you are prepared to face what it will cost. Maybe you have talked about starting for ages but are still waiting for others to approve. Be clear about what you want and what you refuse to sacrifice. Determination and stubbornness are not the same thing. A clear mind can speak louder than a loud voice.",
+      "history": "A group performance with prominent rappers including Method Man, Redman, and Kurupt, centered on lyrical skill, competition, and determination. Released on All Eyez on Me, it exemplifies the broad collaborations and musical ambition of Tupac's work after leaving prison.",
+      "details": "2Pac | Recorded mainly late 1995 | Released February 13, 1996 | All Eyez on Me"
     },
     "75": {
       "headline": "Know your own wishes apart from other people's eyes",
@@ -369,6 +525,18 @@
       "fortune": "Two people can become very powerful together without necessarily following the right path. Maybe you've found someone as daring as you are, and everyone talks about your strength together. Before taking the next step, ask yourself what this alliance creates and what it destroys. Loyalty doesn't erase responsibility for the choices you make together.",
       "history": "In this famous collaboration, Tupac and Snoop Doggy Dogg rap about fame, police, money, and a gangster identity. The title is an ironic reference to being 'most wanted.' From 1996's All Eyez on Me, the song showcases the shared position of Death Row's two stars.",
       "details": "2Pac | All Eyez on Me | Released 1996"
+    },
+    "77": {
+      "headline": "Revenge can look like a cure for an old wound.",
+      "fortune": "When an old wound keeps reopening, revenge may begin to look like a remedy. But striking back can make the story more violent and keep you trapped in the past. You do not have to minimize the hurt. Just ask where the way out might be. Ending pain does not always require passing it on.",
+      "history": "The track is built around rage at enemies, threats, and reciprocal violence. Tupac's heavy, aggressive performance portrays someone determined not to be victimized again. It appears on the first disc of All Eyez on Me (1996), a period when a revenge-driven tone became more pronounced in parts of his music.",
+      "details": "2Pac | Recorded mainly late 1995 | Released February 13, 1996 | All Eyez on Me"
+    },
+    "78": {
+      "headline": "Courage is what you choose while afraid.",
+      "fortune": "Courage is not only about feeling no fear; it is what you decide when fear is present. Others may expect you to be harsh and ruthless all the time. Yet sometimes being true to yourself means refusing a fight that serves no purpose. A strong person does not enter every battlefield to prove strength.",
+      "history": "In this high-energy song, Tupac addresses fear, loyalty, prison, enemies, and readiness to fight. DJ Quik contributed to its production. 'Heartz of Men' invokes a test of courage and allegiance. It was released in 1996 amid the powerful, combative persona of All Eyez on Me.",
+      "details": "2Pac | Recorded mainly late 1995 | Released February 13, 1996 | All Eyez on Me"
     },
     "79": {
       "headline": "Life goes on, even when it hurts",
