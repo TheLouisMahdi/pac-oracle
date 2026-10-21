@@ -33,6 +33,16 @@ function localizedFortune(item) {
   const translation = currentLanguage === 'en' ? currentLocale?.fortunes?.[item.id] : null;
   return translation ? { ...item, ...translation } : item;
 }
+function availableFortunes() {
+  if (currentLanguage !== 'en') return eligibleFortunes;
+  const translations = currentLocale?.fortunes || {};
+  return eligibleFortunes.filter(item => {
+    const translated = translations[item.id];
+    return translated && ['headline', 'fortune', 'history', 'details'].every(
+      key => typeof translated[key] === 'string' && translated[key].trim()
+    );
+  });
+}
 function applyLocale(locale) {
   currentLocale = locale;
   currentLanguage = locale.lang;
@@ -58,8 +68,14 @@ function applyLocale(locale) {
     button.setAttribute('aria-pressed', String(button.dataset.language === locale.lang));
   });
   $('toast').classList.remove('show');
-  if (currentFortune) fillResult(currentFortune);
-  else updateSavedButtons();
+  if (currentFortune && availableFortunes().some(item => item.id === currentFortune.id)) {
+    fillResult(currentFortune);
+  } else if (currentFortune) {
+    currentFortune = null;
+    setUrl(null, true);
+    switchView(false);
+    updateSavedButtons();
+  } else updateSavedButtons();
 }
 async function setLanguage(language, updateUrl = true) {
   if (!['fa', 'en'].includes(language)) language = 'fa';
@@ -70,9 +86,11 @@ async function setLanguage(language, updateUrl = true) {
       if (!response.ok) throw new Error('Language not available');
       const locale = await response.json();
       if (locale.lang !== language || !locale.strings) throw new Error('Invalid language');
-      if (language === 'en' && eligibleFortunes.some(item =>
-        ['headline', 'fortune', 'history', 'details'].some(key => typeof locale.fortunes?.[item.id]?.[key] !== 'string')
-      )) throw new Error('Incomplete translation');
+      if (language === 'en' && !Object.values(locale.fortunes || {}).some(translation =>
+        ['headline', 'fortune', 'history', 'details'].every(key =>
+          typeof translation?.[key] === 'string' && translation[key].trim()
+        )
+      )) throw new Error('No translated fortunes');
       localeCache.set(language, locale);
     }
     if (request !== languageRequest) return;
@@ -182,8 +200,9 @@ function recentIds() {
 }
 function pickFortune() {
   const recent = recentIds();
-  let candidates = eligibleFortunes.filter(item => !recent.includes(item.id));
-  if (!candidates.length) candidates = eligibleFortunes;
+  const pool = availableFortunes();
+  let candidates = pool.filter(item => !recent.includes(item.id));
+  if (!candidates.length) candidates = pool;
   if (!candidates.length) return null;
   const selected = candidates[secureRandomIndex(candidates.length)];
   putLocal(RECENT_KEY, [...recent.filter(id => id !== selected.id), selected.id].slice(-MAX_RECENT));
@@ -220,7 +239,7 @@ function savedId() {
 }
 function updateSavedButtons() {
   const id = savedId();
-  const savedExists = eligibleFortunes.some(item => item.id === id);
+  const savedExists = availableFortunes().some(item => item.id === id);
   $('savedFortuneButton').hidden = !savedExists;
   const isSaved = Boolean(currentFortune && currentFortune.id === id && savedExists);
   $('saveButton').setAttribute('aria-pressed', String(isSaved));
@@ -234,7 +253,7 @@ function toggleSave() {
   showToast(isSaved ? messages.unsaved : messages.saved);
 }
 function openSaved() {
-  const item = eligibleFortunes.find(f => f.id === savedId());
+  const item = availableFortunes().find(f => f.id === savedId());
   if (item) revealFortune(item, false);
 }
 
@@ -292,7 +311,7 @@ function switchView(isResult) {
   }
 }
 function routeFromUrl() {
-  const match = eligibleFortunes.find(item => item.id === currentIdInUrl());
+  const match = availableFortunes().find(item => item.id === currentIdInUrl());
   if (match) { fillResult(match); switchView(true); }
   else { currentFortune = null; switchView(false); updateSavedButtons(); }
 }
@@ -606,12 +625,12 @@ async function initialize() {
       applyLocale(locale);
     }
     eligibleFortunes = database.fortunes.filter(item =>
-      item.public_eligible === true && item.status === 'song_context_draft' &&
+      item.public_eligible === true && item.random_eligible === true &&
       Number.isSafeInteger(item.id) && typeof item.song === 'string' &&
       typeof item.fortune === 'string' && item.fortune.trim() &&
       typeof item.history === 'string' && item.history.trim()
     );
-    if (!eligibleFortunes.length) throw new Error('No verified preview items');
+    if (!eligibleFortunes.length) throw new Error('No eligible fortunes');
     const urlLanguage = new URLSearchParams(location.search).get('lang');
     const language = urlLanguage === 'en' || urlLanguage === 'fa' ? urlLanguage : getLocal(LANGUAGE_KEY, 'fa');
     await setLanguage(language);
