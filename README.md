@@ -19,11 +19,11 @@ A responsive Persian (RTL) fortune experience inspired by the music of 2Pac. Pla
 
 ## Archive policy
 
-The database retains **501 records**, but only **36 entries** are marked `public_eligible: true`. These were selected among known officially published tracks and checked against official album track lists. They are **editorial previews**, not complete lyric-level or recording-date audits. The remaining entries (especially title-inspired drafts, alternate versions and unheard recordings) are not drawn. Other records and original statuses are preserved.
+The database retains **501 records**, of which **491 complete fortunes** are selectable. They comprise 346 song-context drafts and 145 title-inspired drafts. Nine alternate versions and one reference-only entry without a fortune remain indexed but are not selected. The 501 records are not 501 independently verified recordings. Original review/status metadata is preserved.
 
-To expand the public pool, review a track's lyrics, historical context, recording/release chronology and rights, then change `public_eligible` to `true`. Keep `status`, sources and recording-date uncertainty explicit. Do not automatically approve all titles.
+Selecting a fortune does not imply its recording, lyrics, or historical account has been independently verified. Preserve `status`, `review_status`, sources and recording-date uncertainty, especially for 145 title-inspired drafts. To keep the full Persian catalog available, select records only when `public_eligible` and `random_eligible` are true and fortune/history are present.
 
-The default picker samples uniformly from this curated set, avoiding a user's last 20 draws when local storage is available. When local storage is blocked, the preview falls back to session memory.
+The Persian picker samples uniformly from 491 eligible fortunes, avoiding a user's last 20 draws when local storage is available. When local storage is blocked, it uses session memory. The English picker currently uses the 36 fully translated fortunes until the other entries receive English translations.
 
 ## Rights
 
@@ -44,4 +44,4 @@ Chromium-based layout and behavior tests were run with `page.set_content` agains
 - The initial 36 headlines are custom editorial drafts; remaining headlines are non-factual drafts derived from the first sentence of the fortune, not independently approved.
 - Image `assets/images/image-index.json` contains 16 real downloaded images. The app rotates among **curated portrait images** for home and result, and uses some downloaded paper/grunge textures without mistaking historical scans for a song-specific photo. In the fallback path, original bundled WebP images are still used.
 - `image-index.json` and main JSON are fetched when hosted by an HTTP server or GitHub Pages. The one-file mobile preview embeds their JSON so it can work from the phone's file storage.
-- `public_eligible` controls the picker, and currently remains **36**, pending lyric/history/rights review. Do not publish all 501 automatically. Image source licensing requires separate review.
+- `public_eligible` and `random_eligible` control the Persian picker; **491** complete distinct drafts are selectable, while 10 alternate/reference records remain archived. English selection stays at 36 translated chapters. Research and image-rights review are independent of selection eligibility.
