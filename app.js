@@ -337,6 +337,7 @@ async function revealFortune(item, animate = true) {
   }
 }
 function drawFortune() {
+  if (revealInProgress) return;
   const item = pickFortune();
   if (item) revealFortune(item);
   else showToast(messages.noFortune);
