@@ -11,17 +11,16 @@
   <meta property="og:description" content="یه لحظه نیت کن. یک داستان از دنیای توپاک در انتظار توست.">
   <meta property="og:locale" content="fa_IR">
   <meta name="twitter:card" content="summary">
-  <meta property="og:image" content="assets/graphic-collage.webp">
+  <meta property="og:image" content="https://thelouismahdi.github.io/pac-oracle/assets/graphic-collage.webp">
   <meta property="og:image:alt" content="PAC / ORACLE - آرشیو تصویری الهام‌گرفته از جهان توپاک">
-  <!-- Replace the relative og:image with an absolute public URL after deployment. -->
   <title>PAC / ORACLE | فال توپاک</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/hero-portrait.webp">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="style.css?v=pac-reveal-1">
+  <script defer src="app.js?v=pac-reveal-1"></script>
 </head>
 <body>
   <a href="#main" class="skip-link" data-i18n="skipLink">رفتن به محتوای اصلی</a>
@@ -102,7 +101,20 @@
           </aside>
         </div>
       </section>
-      <div class="reveal-overlay" id="revealOverlay" aria-hidden="true" hidden><span dir="ltr">FINDING YOUR FREQUENCY <span>✳</span></span></div>
+      <div class="reveal-overlay" id="revealOverlay" aria-hidden="true" hidden>
+        <div class="reveal-stage">
+          <div class="reveal-wordmark" dir="ltr">PAC <span>/</span> ORACLE</div>
+          <p class="reveal-kicker" data-i18n="revealSelecting">انتخاب از آرشیو</p>
+          <div class="reveal-record" dir="ltr">
+            <div class="reveal-vinyl"><div class="reveal-label">PAC<span>✳</span>ORACLE</div></div>
+            <div class="reveal-sleeve"><span>PAC / ORACLE</span><span class="reveal-sleeve-star">✳</span><span data-i18n="revealArchive">آرشیو موسیقی</span></div>
+          </div>
+          <div class="reveal-track">
+            <p class="reveal-catalog"><span data-i18n="revealCatalog">شناسهٔ آرشیو</span> <span id="revealCatalogNumber" dir="ltr"></span></p>
+            <h2 id="revealSongTitle" dir="auto"></h2>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="site-footer site-width"><span dir="ltr">© PAC / ORACLE - INDEPENDENT TRIBUTE PROJECT.</span><p data-i18n="disclaimer">این برداشت ادبی مستقل از آثار توپاک است، نه پیش‌گویی و نه پروژه رسمی او.</p><button type="button" id="footerAboutButton">CREDITS ↗</button></footer>

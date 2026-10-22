@@ -18,6 +18,7 @@ let eligibleFortunes = [];
 let currentFortune = null;
 let toastTimer;
 let revealInProgress = false;
+let revealController = null;
 let modalOpener = null;
 let previewUrl = null;
 let previewBlob = null;
@@ -30,8 +31,12 @@ let languageRequest = 0;
 const localeCache = new Map();
 
 function localizedFortune(item) {
-  const translation = currentLanguage === 'en' ? currentLocale?.fortunes?.[item.id] : null;
-  return translation ? { ...item, ...translation } : item;
+  if (currentLanguage !== 'en') return item;
+  const translation = currentLocale?.fortunes?.[item.id];
+  if (!translation || !['headline', 'fortune', 'history', 'details'].every(
+    key => typeof translation[key] === 'string' && translation[key].trim()
+  )) throw new Error(`Missing English translation for fortune ${item.id}`);
+  return { ...item, ...translation };
 }
 function availableFortunes() {
   if (currentLanguage !== 'en') return eligibleFortunes;
@@ -78,6 +83,7 @@ function applyLocale(locale) {
   } else updateSavedButtons();
 }
 async function setLanguage(language, updateUrl = true) {
+  cancelReveal();
   if (!['fa', 'en'].includes(language)) language = 'fa';
   const request = ++languageRequest;
   try {
@@ -86,14 +92,15 @@ async function setLanguage(language, updateUrl = true) {
       if (!response.ok) throw new Error('Language not available');
       const locale = await response.json();
       if (locale.lang !== language || !locale.strings) throw new Error('Invalid language');
-      if (language === 'en' && !Object.values(locale.fortunes || {}).some(translation =>
-        ['headline', 'fortune', 'history', 'details'].every(key =>
-          typeof translation?.[key] === 'string' && translation[key].trim()
+      if (language === 'en' && eligibleFortunes.some(item =>
+        !['headline', 'fortune', 'history', 'details'].every(key =>
+          typeof locale.fortunes?.[item.id]?.[key] === 'string' && locale.fortunes[item.id][key].trim()
         )
-      )) throw new Error('No translated fortunes');
+      )) throw new Error('Incomplete English archive');
       localeCache.set(language, locale);
     }
     if (request !== languageRequest) return;
+    cancelReveal();
     applyLocale(localeCache.get(language));
     putLocal(LANGUAGE_KEY, language);
     if (updateUrl) {
@@ -253,6 +260,7 @@ function toggleSave() {
   showToast(isSaved ? messages.unsaved : messages.saved);
 }
 function openSaved() {
+  cancelReveal();
   const item = availableFortunes().find(f => f.id === savedId());
   if (item) revealFortune(item, false);
 }
@@ -299,7 +307,7 @@ function setUrl(id, replace = false) {
   try { history[replace ? 'replaceState' : 'pushState'](state, '', url.pathname + url.search + url.hash); }
   catch { /* Some mobile file:// viewers forbid modifying local URLs. */ }
 }
-function switchView(isResult) {
+function switchView(isResult, focusResult = true) {
   $('homeView').hidden = isResult;
   $('homeBottom').hidden = isResult;
   $('resultView').hidden = !isResult;
@@ -307,33 +315,91 @@ function switchView(isResult) {
   window.scrollTo({ top: 0, behavior: 'instant' });
   if (isResult) {
     $('songTitle').tabIndex = -1;
-    $('songTitle').focus({ preventScroll: true });
+    if (focusResult) $('songTitle').focus({ preventScroll: true });
   }
 }
 function routeFromUrl() {
+  cancelReveal();
   const match = availableFortunes().find(item => item.id === currentIdInUrl());
   if (match) { fillResult(match); switchView(true); }
   else { currentFortune = null; switchView(false); updateSavedButtons(); }
 }
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+function cancelReveal() {
+  if (!revealInProgress) return;
+  const controller = revealController;
+  revealController = null;
+  controller?.abort();
+  $('revealOverlay').hidden = true;
+  delete $('revealOverlay').dataset.phase;
+  $('fortuneSheet').classList.remove('pac-reveal-sheet');
+  $('drawButton').disabled = false;
+  $('againButton').disabled = false;
+  revealInProgress = false;
+}
+function revealDelay(ms, signal) {
+  return new Promise(resolve => {
+    const finish = () => {
+      clearTimeout(timer);
+      signal.removeEventListener('abort', finish);
+      resolve(!signal.aborted);
+    };
+    const timer = setTimeout(finish, ms);
+    signal.addEventListener('abort', finish, { once: true });
+    if (signal.aborted) finish();
+  });
+}
+function setRevealTitle(item) {
+  $('revealSongTitle').textContent = item.song;
+  $('revealCatalogNumber').textContent = String(item.id).padStart(3, '0');
+}
 async function revealFortune(item, animate = true) {
   if (!item || revealInProgress) return;
+  const controller = new AbortController();
+  revealController = controller;
   revealInProgress = true;
+  let completed = false;
   $('drawButton').disabled = true;
   $('againButton').disabled = true;
   try {
-    if (animate && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      $('revealOverlay').hidden = false;
-      await delay(420);
+    const cinematic = animate && !matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (cinematic) {
+      const pool = availableFortunes().filter(candidate => candidate.song !== item.song);
+      const previews = Array.from({ length: 4 }, (_, index) =>
+        pool[(item.id + Math.floor(index * pool.length / 4)) % pool.length] || item
+      );
+      const overlay = $('revealOverlay');
+      setRevealTitle(previews[0]);
+      overlay.dataset.phase = 'dim';
+      overlay.hidden = false;
+      if (!await revealDelay(180, controller.signal)) return;
+      overlay.dataset.phase = 'select';
+      for (const preview of previews.slice(1)) {
+        if (!await revealDelay(140, controller.signal)) return;
+        setRevealTitle(preview);
+      }
+      if (!await revealDelay(150, controller.signal)) return;
+      setRevealTitle(item);
     }
     fillResult(item);
     if (currentIdInUrl() !== item.id) setUrl(item.id);
-    switchView(true);
+    switchView(true, false);
+    if (cinematic) {
+      $('fortuneSheet').classList.add('pac-reveal-sheet');
+      $('revealOverlay').dataset.phase = 'print';
+      if (!await revealDelay(300, controller.signal)) return;
+    }
+    completed = true;
+  } catch (error) {
+    console.error('PAC / ORACLE reveal:', error);
+    routeFromUrl();
+    showToast(messages.revealError);
   } finally {
-    $('revealOverlay').hidden = true;
-    $('drawButton').disabled = false;
-    $('againButton').disabled = false;
-    revealInProgress = false;
+    // An interrupted reveal must never clean up or focus a newer one.
+    if (revealController === controller) {
+      cancelReveal();
+      if (completed) $('songTitle').focus({ preventScroll: true });
+    }
   }
 }
 function drawFortune() {
@@ -343,6 +409,7 @@ function drawFortune() {
   else showToast(messages.noFortune);
 }
 function goHome(event) {
+  cancelReveal();
   event?.preventDefault();
   if (currentIdInUrl() != null) setUrl(null);
   currentFortune = null;
@@ -494,6 +561,7 @@ async function createStoryImage(item) {
 }
 
 function showDialog(id, focusId) {
+  cancelReveal();
   modalOpener = document.activeElement;
   $(id).hidden = false;
   document.body.style.overflow = 'hidden';
@@ -559,6 +627,7 @@ function focusTrap(event, modal) {
   else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
 }
 function installEvents() {
+  window.addEventListener('pagehide', cancelReveal);
   $('brandHome').addEventListener('click', goHome);
   $('drawButton').addEventListener('click', drawFortune);
   $('savedFortuneButton').addEventListener('click', openSaved);

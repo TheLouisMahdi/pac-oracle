@@ -67,7 +67,11 @@
     "saved": "Fortune saved.",
     "unsaved": "Fortune removed from saved items.",
     "sendImageFailed": "Couldn't share the image. Save it instead.",
-    "languageLoadFailure": "Couldn't load this language. Please try again."
+    "languageLoadFailure": "Couldn't load this language. Please try again.",
+    "revealSelecting": "Selecting from the archive",
+    "revealArchive": "MUSIC ARCHIVE",
+    "revealCatalog": "CATALOG",
+    "revealError": "Couldn't reveal the fortune. Please try again."
   },
   "fortunes": {
     "1": {
