@@ -92,7 +92,7 @@ async function fixture({ language = 'fa', fortune, reduced = false, blockedStora
     crypto: webcrypto, setTimeout: clock.set, clearTimeout: clock.clear,
     matchMedia: () => ({ matches: reduced }), location: new URL('https://example.test/pac-oracle/' + suffix),
     console: { error: (...args) => errors.push(args) },
-    fetch: async name => ({ ok: true, json: async () => json(name) }),
+    fetch: async name => ({ ok: true, json: async () => json(name.split('?')[0]) }),
     navigator: { clipboard: { writeText: async value => copied.push(value) } },
     localStorage: {
       getItem(key) { if (blockedStorage) throw Error('Storage blocked'); return storage.get(key) ?? null; },

@@ -88,7 +88,7 @@ async function setLanguage(language, updateUrl = true) {
   const request = ++languageRequest;
   try {
     if (!localeCache.has(language)) {
-      const response = await fetch(`locales/${language}.json`);
+      const response = await fetch(`locales/${language}.json?v=pac-reveal-1`);
       if (!response.ok) throw new Error('Language not available');
       const locale = await response.json();
       if (locale.lang !== language || !locale.strings) throw new Error('Invalid language');
@@ -685,7 +685,7 @@ async function initialize() {
     const embeddedLocale = $('embedded-locale');
     const [databaseResponse, localeResponse] = embeddedDb
       ? [null, null]
-      : await Promise.all([fetch('data/2pac_oracle_database.json'), fetch('locales/fa.json')]);
+      : await Promise.all([fetch('data/2pac_oracle_database.json'), fetch('locales/fa.json?v=pac-reveal-1')]);
     if (!embeddedDb && !databaseResponse.ok) throw new Error('Database not found');
     const database = embeddedDb ? JSON.parse(embeddedDb.textContent) : await databaseResponse.json();
     if (!Array.isArray(database.fortunes)) throw new Error('Invalid data');
