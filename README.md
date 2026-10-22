@@ -1,47 +1,61 @@
-# PAC / ORACLE v1.1
+# PAC / ORACLE v1.2
 
-A responsive Persian (RTL) fortune experience inspired by the music of 2Pac. Plain HTML, CSS, and JavaScript, no backend or build dependencies.
+A bilingual Persian (RTL) and English (LTR) fortune experience inspired by Tupac's music. The site uses plain HTML, CSS, and JavaScript, with no backend, build step, or dependencies.
 
-## Open
+Live site: [PAC / ORACLE](https://thelouismahdi.github.io/pac-oracle/).
 
-- **On a phone:** open `PAC_ORACLE_v1.1_MOBILE_ONE_FILE.html` in a browser. It embeds the HTML, CSS, JavaScript, images, and the 501-record archive. No server is required. Custom web fonts may require connectivity; system font fallbacks are provided.
-- **For development and GitHub Pages:** unzip `PAC_ORACLE_WEBSITE_v1.1.zip`, then from `PAC_ORACLE_SITE` run `python -m http.server 8000`. Visit `http://localhost:8000`.
+## Run locally
 
-## Changes from v1.0
+Serve the repository root over HTTP so the database, locale files, and image index can load:
 
-- Responsive fortune card with improved mobile typography and actions directly below the fortune.
-- Full-length story PNG preview (1080 x 1920) with native share or download. The text is resized, **not truncated**.
-- Save one favorite fortune locally and reopen it without signing in.
-- Officially released tracks link to a **YouTube Music search**. This does not pretend to link to any specific official upload.
-- Header logo, Back button and browser history navigation use an in-page route.
-- Dynamic chapter number, keyboard-accessible dialogs, reduced-motion handling.
-- Static Open Graph and Twitter text metadata; replace relative `og:image` with an absolute public image URL after hosting. Per-fortune social previews require server rendering or a static per-song page.
+```sh
+python -m http.server 8000
+```
 
-## Archive policy
+Open `http://localhost:8000/`. Use the FA/EN menu to change language, or open `http://localhost:8000/?lang=en&f=500` for an English shared fortune. GitHub Pages publishes the `main` branch from `/` with the same static files. Custom web fonts use system fallbacks when unavailable.
 
-The database retains **501 records**, of which **491 complete fortunes** are selectable. They comprise 346 song-context drafts and 145 title-inspired drafts. Nine alternate versions and one reference-only entry without a fortune remain indexed but are not selected. The 501 records are not 501 independently verified recordings. Original review/status metadata is preserved.
+## Bilingual archive and eligibility
 
-Selecting a fortune does not imply its recording, lyrics, or historical account has been independently verified. Preserve `status`, `review_status`, sources and recording-date uncertainty, especially for 145 title-inspired drafts. To keep the full Persian catalog available, select records only when `public_eligible` and `random_eligible` are true and fortune/history are present.
+- The original Persian database retains **501 unique records** and its source, review, and eligibility metadata.
+- **491 fortunes are selectable in both languages**: 346 song-context drafts and 145 title-inspired drafts.
+- All **501 records have English descriptive content** in `locales/en.json`. Every eligible record has an English headline, fortune, history, and details; no eligible English entry falls back to Persian.
+- Nine alternate versions (430, 434, 438, 446, 452, 454, 470, 472, 476) remain indexed and ineligible.
+- Reference-only entry 501 remains ineligible and has no fortune in either language. Its English translation covers the existing descriptive content only.
 
-The Persian picker samples uniformly from 491 eligible fortunes, avoiding a user's last 20 draws when local storage is available. When local storage is blocked, it uses session memory. The English picker currently uses the 36 fully translated fortunes until the other entries receive English translations.
+Selection still requires `public_eligible` and `random_eligible`, a valid ID and song title, and nonempty fortune/history. It uses the existing `crypto.getRandomValues()` picker and avoids the last 20 draws, using session memory if local storage is blocked. English uses the same 491-entry pool.
 
-## Rights
+The archive is an editorial collection, not 501 independently verified recordings. Title-inspired interpretations remain distinct from verified song analysis. Translations preserve source uncertainty and do not resolve historical review flags. Fortune texts are independent interpretations, not official Tupac quotations.
 
-Photographs were supplied by the user. Download availability does not grant republication rights. Obtain licenses or replace images before launching publicly. All fortune texts are interpretations, not official Tupac quotations, and publication accuracy remains under editorial review. There is no audio or lyric transcription in this project.
+## PAC REVEAL
 
-## Localization
+An accepted draw selects exactly one fortune before displaying a **1050 ms** sequence:
 
-The UI is initially Persian. `locales/fa.json` holds UI strings; translated fortunes should be stored by consistent `id` in locale-specific data before enabling more languages. Use HTML `lang` and `dir` and CSS logical properties. Full multilingual content has not been implemented yet.
+1. 0–180 ms: dim the scene and introduce the archive branding.
+2. 180–750 ms: move a CSS vinyl record and sleeve while cycling through real available song titles.
+3. 750–1050 ms: show the actual selected title and uncover the existing printed fortune sheet.
 
-## QA
+The five displayed titles are decorative; they never call the picker or update recent history. Duplicate actions are rejected before selection. The original design, record data, images, and random algorithm are preserved.
 
-Chromium-based layout and behavior tests were run with `page.set_content` against the self-contained preview at 320, 360, 390, 430, 768 and 1440px widths. They passed checks for horizontal overflow, JS exceptions, drawing, saving, story preview generation and dialog close. Direct browser navigation to `file://` or `localhost` is blocked by the current testing environment; the supplied local HTML should also be checked on an actual Android device.
+With `prefers-reduced-motion: reduce`, a draw displays the result immediately. Decorative elements are hidden from assistive technology, and focus moves to the result heading after completion. Initial loads, shared URLs, browser navigation, saved-fortune reopening, and language changes do not run the sequence. Navigation, language changes, dialogs, page exit, and render errors cancel pending reveal timers and restore the controls.
 
-## v1.2: media metadata + image variation
+## Existing features
 
-- All **501** archive records remain intact and have a `headline`, `headline_review`, and `music` metadata object. Existing fortunes, histories, and research flags are preserved.
-- **346** song-context records include YouTube Music and Spotify **search/discovery links**, of which **36** appear in the public site today. They are **not verified direct recording URLs**. The other 155 records (title-inspired, alternate versions and archival references) intentionally have no track search link. A verified direct recording can later be added manually to `music.direct_url`.
-- The initial 36 headlines are custom editorial drafts; remaining headlines are non-factual drafts derived from the first sentence of the fortune, not independently approved.
-- Image `assets/images/image-index.json` contains 16 real downloaded images. The app rotates among **curated portrait images** for home and result, and uses some downloaded paper/grunge textures without mistaking historical scans for a song-specific photo. In the fallback path, original bundled WebP images are still used.
-- `image-index.json` and main JSON are fetched when hosted by an HTTP server or GitHub Pages. The one-file mobile preview embeds their JSON so it can work from the phone's file storage.
-- `public_eligible` and `random_eligible` control the Persian picker; **491** complete distinct drafts are selectable, while 10 alternate/reference records remain archived. English selection stays at 36 translated chapters. Research and image-rights review are independent of selection eligibility.
+- Save and reopen one favorite locally; copy the localized fortune and its share URL.
+- Generate a 1080 × 1920 PNG with a mobile story preview, download, and native sharing where supported.
+- Rotate curated archival portraits and textures using the existing 28-entry image index and bundled fallbacks. Asset provenance remains in `CREDITS_AND_RIGHTS.md` and the image index.
+- Read existing source links and details. YouTube Music and Spotify links are **search/discovery links**, not verified direct recording URLs. Records without those links remain unchanged.
+- Use FA/EN switching, keyboard-accessible dialogs, and browser Back/Forward navigation.
+
+Social metadata uses the absolute published collage URL. Social previews are static; per-fortune server-rendered previews are not implemented. No audio or lyric transcription is included.
+
+## Verify
+
+Node's built-in test runner requires no package installation:
+
+```sh
+node --test tests/verify.cjs
+```
+
+The 16 tests cover archive integrity against baseline commit `306562ff0ec12e7c4f1c79e2b38e73f0c1b07955`, preservation of the previous 360 translations, all 491 results in both languages, reveal timing, rapid activation, reduced motion, interruption and error cleanup, asynchronous language changes, routing, saving, recent-history avoidance, copy text, and share-image text. A small DOM/clock/canvas fixture executes the actual application code; it does not replace browser layout checks.
+
+Manual Chromium checks used the local HTTP site at 320, 360, 390, 430, 768, and 1440 px in both languages. First and subsequent draws, title matching, focus restoration, and horizontal overflow passed. Direct English chapter 500, saved-fortune reopening, language switching, Back/Forward interruption, and a real 1080 × 1920 story preview were checked. No browser console errors were observed. Clipboard content and canvas text are asserted by automated tests; the browser displayed the copy-success notification, but the browser tool's clipboard readback was empty. Reduced motion was tested with controlled `matchMedia`, not an operating-system setting. Physical devices, Safari, native share targets, and external music playback were not tested.
