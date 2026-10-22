@@ -910,6 +910,12 @@
       "history": "Featuring Outlawz, this song appeared on the 1997 Gang Related soundtrack for a film about two corrupt police officers in which Tupac starred. It conveys darkness, distrust, and disorientation. The album was released after Tupac's death; reliable public information does not clearly establish the original recording date.",
       "details": "2Pac feat. Outlawz | Gang Related: The Soundtrack | Released October 7, 1997, posthumously"
     },
+    "141": {
+      "headline": "Missing someone does not mean your life has to stop.",
+      "fortune": "Some people leave, but their absence stays in our lives. Perhaps you have been revisiting someone's memory lately. You do not have to pretend they were perfect to keep loving them. Real relationships contain more than one kind of story. You can mourn and keep living; missing someone is another form of carrying them with you.",
+      "history": "With Stretch, Tupac mourns murdered friends and the wounds they left behind. The song was first issued on Greatest Hits in 1998. The name 'Biggy Smallz' at the recording's beginning refers to someone from his earlier circle; similar spelling alone does not make it a prediction of The Notorious B.I.G.'s 1997 death.",
+      "details": "2Pac feat. Stretch | Greatest Hits | First released November 24, 1998, posthumously"
+    },
     "142": {
       "headline": "Real love isn't measured in fear",
       "fortune": "Real affection doesn't demand a daily loyalty test. Maybe you love someone but constantly fear their feelings will change if you aren't successful. Unconditional love doesn't mean tolerating every behavior; it means not measuring a person's worth only by money and status. Notice where you're seen in your relationships and where you're only assessed. Being loved shouldn't be a performance reward.",
@@ -922,11 +928,107 @@
       "history": "Tupac's diss track featuring the Outlawz first appeared in 1996 as the companion track to the 'How Do U Want It' single, and later on Greatest Hits. The lyrics directly attack The Notorious B.I.G. and his associates. It is one of the fiercest expressions of the East Coast–West Coast hip-hop conflict of that period.",
       "details": "2Pac | Greatest Hits | Released 1998"
     },
+    "144": {
+      "headline": "Sometimes you are frightened by who you have become.",
+      "fortune": "You may keep saying 'this is just who I am' to avoid considering change. Living in constant battle mode can create a sense of control while narrowing your choices. Ask which parts of your toughness genuinely protect you and which have become exhausting habits. Not every piece of armor is worth keeping.",
+      "history": "In this violent 1996-era track, Tupac addresses teenage deaths, street conflict, enemies, and nightmares. It received its first widespread release on Greatest Hits in 1998. A central contradiction is that he condemns young people's deaths while continuing to use threats of violence in his own lyrics.",
+      "details": "2Pac | Greatest Hits | Recorded around 1996; widely released November 24, 1998"
+    },
     "145": {
       "headline": "Nothing changes unless someone wants it to",
       "fortune": "When everyone says, 'That's just how the world is,' ask yourself who benefits from it staying that way. Maybe you've spent a long time putting up with injustice or an unwritten rule. Change doesn't always begin with a grand decision; sometimes it starts by questioning something everyone considers normal. If something is wrong, being old doesn't make it right.",
       "history": "Tupac recorded the song years before its release, and the famous version came out posthumously in 1998. A piano sample from Bruce Hornsby's 'The Way It Is' gives life to a protest against racism, poverty, drugs, and police violence. It is among his best-known social and posthumous works.",
       "details": "2Pac | Greatest Hits | Released 1998"
+    },
+    "146": {
+      "headline": "When nobody answers, silence can become injustice.",
+      "fortune": "Perhaps your complaint keeps getting passed between people who refuse responsibility. The anger of not being heard is real, but speaking louder is not always the solution. Name the problem precisely and demand an answer from someone able to change it. A clear protest becomes harder to ignore.",
+      "history": "Opening the 1999 joint album by Tupac and Outlawz, this track addresses the president and structures of power critically. It raises poverty, racism, police pressure, and neglect of disadvantaged communities. Tupac's performance predates his death; the group helped complete the album afterward.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "147": {
+      "headline": "Your beginnings do not get to define your ending.",
+      "fortune": "You do not have to deny your past to rise above it. Maybe the start of your life was harder than anyone around you understands. Succeeding does not mean erasing your scars; it means still having the right to imagine a future. Early disadvantages are not your entire identity. Falling can be one chapter, not the last.",
+      "history": "The title track of Tupac and Outlawz's joint album, released in December 1999 after his death, moves from childhood poverty and neighborhood pressure toward growth and resilience. Tupac's earlier vocal is combined with performances by group members. Its title celebrates rising despite adversity.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "148": {
+      "headline": "Loyalty should not be a permanent obedience test.",
+      "fortune": "Some secrets feed on fear more than truth. Maybe everyone around you talks about loyalty, yet no one feels free to say what they think. When trust is measured only through silence and unquestioning agreement, it turns into pressure. Notice what you have hidden from yourself to stay in the group. Friendship should allow honest questions.",
+      "history": "Tupac and Outlawz portray their militant group identity, hidden conflicts, and fierce allegiance. The lyrics are explicitly violent; the title is not practical advice about fighting wars. It appeared on Still I Rise in 1999, using vocals Tupac recorded during his lifetime.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "149": {
+      "headline": "Crying is not evidence that you are weak.",
+      "fortune": "Sometimes crying means you have not gone numb. Maybe you have begun believing what other people say about you, even when their judgments are unfair. Do not minimize the pain, but do not let those insults become your own voice. Find people around whom you do not need to perform. You are more than their judgment.",
+      "history": "Continuing the themes of 'Keep Ya Head Up,' this song offers reassurance to a woman who has suffered. Tupac's older recording was combined with Outlawz performances and posthumous production. Released on Still I Rise in 1999, it contrasts with the harsher treatment of women in some of his other songs.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "150": {
+      "headline": "The world does not pause for your pain.",
+      "fortune": "You may have been waiting for a painful event to end before allowing yourself to live again, but days move forward without permission. Time's indifference can be frightening, yet it also creates another chance to choose. You need not forget what happened. You can decide what to carry forward. The clock keeps moving; you do not have to stay behind.",
+      "history": "Tupac and Outlawz describe a turning world shaped by money, murder, prison, and dead friends. Released on Still I Rise in 1999, the song uses earlier Tupac vocals with contributions from the group. Its dark, multi-voice narrative is not a simple optimistic reflection on the passage of time.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "151": {
+      "headline": "Hope feels different when it understands where you come from.",
+      "fortune": "When someone cannot understand your pain, even your hope searches for a familiar language. Perhaps you need guidance that will not judge you from above, someone who knows what you have endured. Choose role models carefully, but do not let them replace your own thinking. Help begins when the truth of your life is seen.",
+      "history": "In this collaboration, the image of a 'Black Jesus' suggests spiritual refuge close to the experiences of people in marginalized neighborhoods. Tupac and Outlawz move between faith, doubt, violence, and appeals for help. Released on Still I Rise in 1999, its symbolism needs to be read in racial and social context.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "152": {
+      "headline": "Friendship is built through actions, not slogans.",
+      "fortune": "A real friend does not merely say 'I'm with you.' They stay present when you make mistakes, too. Perhaps one relationship only feels like friendship while everything is easy. Notice the smaller acts: answering calls, checking in, keeping a promise. Then ask when you have fallen short yourself. Loyalty grows through repeated choices.",
+      "history": "Tupac and Outlawz rap about close companions, trust under threat, and street solidarity. The track also ties loyalty to readiness for confrontation, so its picture of friendship is not harmless or purely romantic. It appeared on the 1999 posthumous joint album Still I Rise.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "153": {
+      "headline": "Running faster will not help if you forgot the destination.",
+      "fortune": "When you are always hustling to survive, you may forget where you hoped to go. Perhaps relentless effort has become a badge of pride while your health and relationships absorb the cost. Ambition is not wrong, but is there still something in your life beyond work and conflict? If the whole road feels like hell, speed is not the answer.",
+      "history": "Tupac and Outlawz describe pressure to earn, street life, prison, and enemies. The lyrics contrast earning money through drugs and through rap, with both depicted amid danger. Released on Still I Rise in 1999, it draws on the aggressive tone of Tupac's later recordings.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "154": {
+      "headline": "Moving fast can make you miss the next turn.",
+      "fortune": "You want everything immediately: money, success, answers, decisions. Rushing may make you feel ahead, but it also raises the cost of mistakes. Ask yourself whether you are truly behind or merely using somebody else's speed as your measure. Not every road is a race.",
+      "history": "This group track by Tupac and Outlawz evokes a fast-moving life involving substance use, conflict, and risky decisions. Its title suits the relentless motion of their street narrative. It appeared on Still I Rise in 1999, using Tupac's previously recorded performance.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "155": {
+      "headline": "Some losses have no fair explanation.",
+      "fortune": "When someone dies young, you may search for a reason or someone to blame, hoping the pain will become easier to understand. You do not have to turn every loss into a beautiful lesson. Their memory can live on in what you do for people still here. Mourning is not a contest to find the perfect explanation.",
+      "history": "Tupac and Outlawz address early death, violence, children, and social tragedy. Tupac's lyrics also refer to church burnings, plane crashes, and women's reproductive choices. Released on Still I Rise in 1999, the finalized version may include dedications or references added after his death.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "156": {
+      "headline": "An independent mind questions both rumors and official stories.",
+      "fortune": "Not everything hidden is a conspiracy, and not everything announced publicly tells the entire truth. Perhaps you are caught between doubt and trust. Asking questions is healthy, but answers need evidence, not just a frightening story's appeal. An independent mind neither believes too quickly nor decides the verdict in advance.",
+      "history": "From Tupac and Outlawz's 1999 Still I Rise collaboration, this confrontational track invokes rivals, power, and the Makaveli identity. 'Killuminati' carries symbolic weight in Tupac's artistic world. The title alone does not prove belief in a specific conspiracy theory or membership in a secret organization.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "157": {
+      "headline": "Sometimes presence is the only language grief needs.",
+      "fortune": "Some news divides life into a 'before' and 'after.' Maybe you are not ready for a loss, or you feel helpless witnessing someone else's grief. You do not need to find a remarkable sentence. Staying nearby, listening, and remembering can mean more than a thousand pieces of advice. At a time of mourning, being there speaks volumes.",
+      "history": "The title's tears and closed caskets evoke violent deaths and mourning in neighborhoods. Tupac and Outlawz remember lost friends and those who survive them. The album version appeared on Still I Rise in 1999 after Tupac's death and continues the group's collective story of bereavement.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "158": {
+      "headline": "Some memories are tattooed into your behavior.",
+      "fortune": "An experience can stay with you through the people you choose, the things you fear, and the way you react. You cannot erase the past with a single decision, but you can notice where it still directs your present. Every wound has a story; it does not have to command your future.",
+      "history": "Tupac and Outlawz address pain, loyalty, memories of the dead, and a street identity. A tattooed tear symbolizes grief that lasts and a life marked by violence. The track was released on Still I Rise in 1999, combining Tupac's earlier recording with later final production.",
+      "details": "2Pac + Outlawz | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "159": {
+      "headline": "Nobody is too strong to need protection.",
+      "fortune": "Maybe you are always supporting others and imagine yourself beyond harm. Pride can hide danger, though. Being vulnerable is not a moral failure; it is part of being human. Boundaries, asking for help, and caution also require strength. Do not deny your limits until they take you by surprise.",
+      "history": "The verses are carried mainly by Outlawz members, with Tupac's voice used in the chorus. The theme is that no one is immune to violence and death. The finalized recording also references the losses of Tupac and Kadafi, meaning portions were clearly shaped after their deaths. Released in 1999.",
+      "details": "Outlawz with Tupac vocals | Still I Rise | Released December 21, 1999, posthumously"
+    },
+    "160": {
+      "headline": "Do not treat your story as finished before its ending.",
+      "fortune": "When you believe the end is close, you may begin making choices as if you have nothing left worth protecting. Yet even amid anger and pressure, tomorrow has not been written. Ask which decision solves a problem only today and what it may cost you later. Your story is not over simply because the present feels dark.",
+      "history": "Opening the posthumous 2001 album Until the End of Time, this song depicts the violent fate of a 'street soldier.' Tupac moves between displays of toughness and awareness of death. His vocal was recorded before September 1996; the released arrangement was completed after his death.",
+      "details": "2Pac | Until the End of Time | Released March 27, 2001, posthumously; vocals recorded before September 1996"
     },
     "172": {
       "headline": "Big promises face big tests",
